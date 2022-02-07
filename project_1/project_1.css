@@ -55,3 +55,21 @@ body {
   display: inline-block;
   opacity: 0%;
 }
+
+.knob {
+  position: absolute;
+  z-index: 2;
+  bottom: 20.8%;
+  opacity: 100%;
+  right: 57.5%;
+  transition: 0.5s;
+}
+
+.knob:hover {
+  transform: rotate(90deg);
+  transition: 0.5s;
+  width: 4.2%;
+  height: 10%;
+  right: 57.75%;
+  bottom: 20.4%;
+}
