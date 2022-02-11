@@ -1,10 +1,11 @@
 body {
   background-color: #daafda;
+  min-height: 100vh;
 }
 
 h1 {
   color: white;
-  font-family: antique-olive-compact, sans-serif;
+  font-family: blocuswebfont;
   font-weight: 100;
   text-align: center;
   margin-top: 5%;
@@ -45,4 +46,9 @@ a:hover {
 iframe {
   position: absolute;
   left: 35%;
+}
+
+@font-face {
+  font-family: blocuswebfont;
+  src: url(blocuswebfont.woff);
 }
