@@ -1,0 +1,48 @@
+body {
+  background-color: #daafda;
+}
+
+h1 {
+  color: white;
+  font-family: antique-olive-compact, sans-serif;
+  font-weight: 100;
+  text-align: center;
+  margin-top: 5%;
+  font-size: 40pt;
+  stroke-width: 10px;
+}
+
+span {
+  background-color: #d162d5;
+  border-radius: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+p {
+  font-family: antique-olive, sans-serif;
+  text-align: center;
+  color: #fff;
+}
+
+a {
+  background-color: #b685f4;
+  color: white;
+  text-decoration: none;
+  padding: 2%;
+  font-family: antique-olive, sans-serif;
+  position: relative;
+  left: 29%;
+  text-align: center;
+}
+
+a:hover {
+  background-color: #6bc4fc;
+}
+
+iframe {
+  position: absolute;
+  left: 35%;
+}
