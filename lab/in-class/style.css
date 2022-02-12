@@ -1,0 +1,41 @@
+@font-face {
+  font-family: IBM PlexSans Bold;
+  src: url(IBMPlexSans-Bold.woff);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: IBM PlexSans;
+  src: url(IBMPlexSans-Regular.woff);
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+body {
+  font-family: IBM PlexSans;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #111;
+}
+
+h1,
+h2,
+h3 {
+  font-family: IBM PlexSans Bold;
+  color: #333;
+  line-height: 1rem;
+}
+
+.container {
+  margin-left: 28%;
+  margin-top: 5%;
+  margin-right: 28%;
+}
+
+h3 {
+  border-bottom: solid 2px;
+  line-height: 40px;
+}

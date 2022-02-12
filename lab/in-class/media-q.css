@@ -1,0 +1,28 @@
+@font-face {
+  font-family: blocus;
+  src: url(blocuswebfont.woff);
+  font-display: swap;
+}
+
+h1 {
+  font-family: blocus;
+}
+
+.container {
+  background-color: mediumorchid;
+  color: white;
+  padding: 20px;
+  width: 180px;
+  height: 120px;
+  border: solid 2px cornflowerblue;
+  font-family: blocus;
+  font-size: 2rem;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 500px;
+    height: 200px;
+    font-size: 3rem;
+  }
+}
