@@ -1,0 +1,38 @@
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+
+@font-face {
+  font-family: digital-numbers;
+  src: url(DigitalNumbers-Regular.woff);
+  font-display: swap;
+}
+
+body {
+  height: 100vh;
+  background-image: radial-gradient(#d3eaff, #85c5f4);
+}
+
+.screen {
+  position: relative;
+  width: 203px;
+  height: 153px;
+  background-image: linear-gradient(-15deg, #292929, #595959, #252525);
+  padding: 10%;
+  color: #d162d5;
+  font-family: digital-numbers;
+  font-size: 34px;
+  border-radius: 10px;
+  left: 40px;
+  top: 188px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 10%;
+}
+
+.keypad {
+  position: relative;
+  background-color: #dcd0ff;
+}
