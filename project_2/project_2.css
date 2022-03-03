@@ -28,11 +28,31 @@ body {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  grid-gap: 10%;
+  grid-template-columns: 48% 1% 50%;
+  grid-template-rows: 1fr 1.5fr 1fr 1.5fr 1fr;
+  justify-items: center;
+  align-items: center;
 }
 
 .keypad {
   position: relative;
+  width: 81px;
+  height: 45px;
+  border-radius: 10%;
   background-color: #dcd0ff;
+  text-align: center;
+  top: 11rem;
+  font-family: "Stick No Bills", sans-serif;
+  font-size: 37px;
+  font-weight: 300;
+  color: #946bc9;
+}
+
+.zero {
+  align-self: center;
+  grid-column-start: 2;
+}
+
+.button {
+  border-radius: 100%;
 }
