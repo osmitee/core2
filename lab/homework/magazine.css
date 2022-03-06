@@ -122,4 +122,6 @@ h1 {
 
 .glitch {
   opacity: 0%;
+
+  cursor: pointer;
 }
