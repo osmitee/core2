@@ -1,1 +1,0 @@
-window.location = $(".answer").data("project_2/msg.html");
