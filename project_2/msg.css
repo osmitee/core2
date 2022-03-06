@@ -1,0 +1,151 @@
+body {
+  background-color: #b685f4;
+}
+
+.grid-msg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20% 5%;
+}
+
+.msg {
+  background-color: #bbffb5;
+  border-radius: 25px;
+  font-family: "stick no bills";
+  width: 200px;
+  height: 55px;
+  padding: 4%;
+  font-size: 22px;
+  font-weight: 200;
+  margin: 3%;
+}
+.two,
+.four,
+.six,
+.eight,
+.eleven,
+.thirteen,
+.fifteen {
+  position: relative;
+  background-color: #6bc4fc;
+  color: white;
+}
+
+.two {
+  width: 220px;
+  right: -20%;
+}
+
+.four {
+  right: -40%;
+  width: 150px;
+  height: 26px;
+}
+
+.six {
+  right: -25%;
+  width: 200px;
+  height: 26px;
+}
+
+.eight {
+  right: -30%;
+  width: 180px;
+  height: 26px;
+}
+
+.eleven {
+  right: -22%;
+  width: 210px;
+  height: 28px;
+}
+
+.thirteen {
+  right: -20%;
+  width: 215px;
+  height: 26px;
+}
+
+.fifteen {
+  right: -25%;
+  width: 200px;
+  height: 55px;
+}
+
+.five {
+  width: 222px;
+  height: 28px;
+}
+.seven {
+  width: 230px;
+  height: 28px;
+}
+.nine {
+  width: 240px;
+}
+
+.ten {
+  width: 211px;
+  height: 28px;
+}
+.twelve {
+  width: 260px;
+  height: 28px;
+}
+.fourteen {
+  height: 28px;
+}
+
+.sixteen,
+.seventeen,
+.eighteen {
+  height: 28px;
+  width: 34px;
+  text-align: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.break {
+  flex-basis: 50%;
+  height: 0;
+  width: 0;
+  opacity: 0;
+}
+
+.circle-one {
+  position: absolute;
+  width: 264px;
+  height: 264px;
+  z-index: -1;
+  border-radius: 100%;
+  background-color: #d162d5;
+  top: 15px;
+  left: -40px;
+}
+
+.circle-one {
+  position: fixed;
+  width: 264px;
+  height: 264px;
+  z-index: -1;
+  border-radius: 100%;
+  background-color: #d162d5;
+  top: 30px;
+  left: -40px;
+}
+
+.circle-two {
+  position: fixed;
+  background-color: #d3c3ff;
+  width: 454.89px;
+  height: 162.97px;
+  border-radius: 100%;
+  transform: rotate(154.46deg);
+  z-index: -1;
+  top: 50px;
+  mix-blend-mode: multiply;
+  left: 55px;
+}
