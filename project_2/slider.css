@@ -1,5 +1,8 @@
 body {
   background-color: #b685f4;
+  font-family: stick no bills;
+  color: #fff;
+  font-weight: 100;
 }
 
 .slider-container {
@@ -30,4 +33,106 @@ body {
   background: #fff;
   cursor: grab;
   border-radius: 100%;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.blue-container {
+  opacity: 100%;
+}
+
+.one {
+  width: 180px;
+  height: 180px;
+  background-color: #6bc4fc;
+  border-radius: 100%;
+  position: relative;
+  left: 100px;
+  top: 30px;
+  font-size: 30px;
+}
+
+.two {
+  width: 142px;
+  height: 214px;
+  background-color: #25beff;
+  border-radius: 100%;
+  position: relative;
+  left: 210px;
+  top: 200px;
+  font-size: 23px;
+  mix-blend-mode: overlay;
+}
+
+.pink-container {
+  opacity: 100%;
+}
+
+.three {
+  width: 162px;
+  height: 211px;
+  background-color: #d162d5;
+  border-radius: 100%;
+  position: relative;
+  left: 100px;
+  top: -100px;
+  font-size: 30px;
+  transform: rotate(20deg);
+  z-index: -1;
+}
+
+.txt {
+  transform: rotate(-20deg);
+}
+
+.four {
+  width: 211px;
+  height: 102px;
+  background-color: #d162d5;
+  border-radius: 100%;
+  position: relative;
+  left: 170px;
+  font-size: 18px;
+  transform: rotate(60deg);
+  z-index: -1;
+}
+
+.purple-container {
+  opacity: 100%;
+}
+
+.five {
+  width: 159px;
+  height: 356px;
+  background-color: #7e51ff;
+  border-radius: 100%;
+  position: relative;
+  top: -270px;
+  left: 70px;
+  font-size: 23px;
+  mix-blend-mode: overlay;
+  z-index: -1;
+}
+
+.six {
+  width: 229px;
+  height: 144px;
+  background-color: #7e51ff;
+  border-radius: 100%;
+  position: relative;
+  top: -888px;
+  left: 120px;
+  font-size: 23px;
+  mix-blend-mode: overlay;
+  z-index: 1;
+  transform: rotate(-11deg);
+}
+
+.txt2 {
+  transform: rotate(11deg);
 }

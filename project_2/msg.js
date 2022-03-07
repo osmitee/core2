@@ -6,11 +6,15 @@ var circleFive = document.getElementById("circle-five")
 
 window.onscroll = function () {
     myFunction()
+    circleOne.style.transition = "2s";
+    circleTwo.style.transition = "2s";
+    circleThree.style.transition = "2s";
+    circleFour.style.transition = "2s";
+    circleFive.style.transition = "2s";
 };
 
-
 function myFunction() {
-  if (document.body.scrollTop > 350 || document.documentElement.scrollTop > 350) {
+  if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
       circleOne.style.top = "400px";
       circleTwo.style.transform =  "rotate(-154deg)";
       circleTwo.style.height = "100px";
@@ -27,3 +31,4 @@ function popUp() {
   var popup = document.getElementById("myPopup");
   popup.classList.toggle("show");
 }
+
