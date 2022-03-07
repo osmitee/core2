@@ -20,9 +20,10 @@ function myFunction() {
       circleFour.style.left = "270px";
       circleFour.style.top = "450px";
          circleFive.style.top = "100px";
-
-      
-
-      
   }
+}
+
+function popUp() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
 }

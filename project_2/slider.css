@@ -1,0 +1,33 @@
+body {
+  background-color: #b685f4;
+}
+
+.slider-container {
+  width: 100%;
+}
+
+.slider {
+  position: absolute;
+  width: 673px;
+  height: 66px;
+  background-image: linear-gradient(90deg, #6bc4fc, #d162d5, #7e51ff);
+  outline: none;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  border-radius: 61px;
+  top: 45%;
+  left: -75%;
+  box-shadow: inset 2px 2px 10px #444;
+  -webkit-appearance: none;
+  transform: rotate(90deg);
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 55px;
+  height: 55px;
+  background: #fff;
+  cursor: grab;
+  border-radius: 100%;
+}
