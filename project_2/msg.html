@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="msg.css">
-    <script src="script.js" defer></script>
+    <script src="msg.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200;300;400;500;600&display=swap"
@@ -17,11 +17,11 @@
 </head>
 
 <body>
-    <div class="circle-one"></div>
-    <div class="circle-two"></div>
-    <div class="circle-three"></div>
-    <div class="circle-four"></div>
-    <div class="circle-five"></div>
+    <div class="circle-one js-scroll" onscroll="circleOne()" id="circle-one"></div>
+    <div class="circle-two js-scroll" onscroll="circleTwo()" id="circle-two"></div>
+    <div class="circle-three js-scroll" onscroll="circleThree()" id="circle-three"></div>
+    <div class="circle-four js-scroll" onscroll="circleFour()" id="circle-four"></div>
+    <div class="circle-five js-scroll" onscroll="circleFive()" id="circle-five"></div>
     <div class="grid-msg">
         <div class="msg one">Intégration d'Matthieu à la soirée d'Maya</div>
         <div class="msg two">T'inquiète, je gère, j'lui parle sur Insta'</div>
@@ -44,7 +44,7 @@
         <div class="msg break"></div>
         <div class="msg eighteen">😭</div>
     </div>
-    <div></div>
+    <button>CONTINUE</button>
 </body>
 
 </html>

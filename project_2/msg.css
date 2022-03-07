@@ -1,3 +1,9 @@
+@font-face {
+  font-family: digital-numbers;
+  src: url(DigitalNumbers-Regular.woff);
+  font-display: swap;
+}
+
 body {
   background-color: #b685f4;
 }
@@ -8,6 +14,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin: 20% 5%;
+  overflow: scroll;
 }
 
 .msg {
@@ -133,19 +140,90 @@ body {
   z-index: -1;
   border-radius: 100%;
   background-color: #d162d5;
-  top: 30px;
   left: -40px;
+  animation-name: circleOne;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  animation-play-state: paused;
+  animation-delay: calc(var(--scroll) * -1s);
 }
 
-.circle-two {
+#circle-two {
   position: fixed;
   background-color: #d3c3ff;
   width: 454.89px;
   height: 162.97px;
   border-radius: 100%;
-  transform: rotate(154.46deg);
+  transform: rotate(154deg);
   z-index: -1;
   top: 50px;
   mix-blend-mode: multiply;
   left: 55px;
+}
+
+#circle-three {
+  position: fixed;
+  background-color: #d3c3ff;
+  width: 390px;
+  height: 225px;
+  border-radius: 100%;
+  z-index: -1;
+  top: 333px;
+  mix-blend-mode: multiply;
+  left: 55px;
+}
+
+#circle-four {
+  position: fixed;
+  background-color: #d162d5;
+  width: 140px;
+  height: 343px;
+  border-radius: 100%;
+  z-index: -2;
+  top: 430px;
+  left: -20px;
+}
+
+#circle-five {
+  position: fixed;
+  background-color: #d162d5;
+  width: 222px;
+  height: 232px;
+  border-radius: 100%;
+  z-index: 1;
+  top: 444px;
+  left: 200px;
+  mix-blend-mode: soft-light;
+}
+
+.js-scroll {
+  top: 30px;
+}
+
+.js-scroll.scrolled {
+  top: 400px;
+}
+
+button {
+  position: absolute;
+  background-color: #d162d5;
+  border-radius: 100%;
+  padding: 5%;
+  border: dotted 2px #6bc4fc;
+  font-family: digital-numbers;
+  color: #fff;
+  left: 32%;
+  bottom: -770px;
+  margin-bottom: 20px;
+  box-shadow: 4px 4px #6bc4fc;
+}
+
+button:active {
+  background-color: #d162d5;
+  color: #fff;
+  border: dotted 2px #6bc4fc;
+  box-shadow: 0px 0px;
+  left: 33%;
+  bottom: -777px;
 }
