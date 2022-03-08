@@ -1,20 +1,15 @@
-let circleOne = document.getElementById("circle-one");
+let circleThree = document.getElementById("circle-three");
+let circleFour = document.getElementById("circle-four");
+let circleFive = document.getElementById("circle-five");
+let circleSix = document.getElementById("circle-six");
 let slider = document.querySelector("input[type='range']");
-    
-function slider_value(value) {
-    slider.oninput = function () {
-    output.innerHTML = slider_value;
-    this.slider_value(value);
+
+slider.oninput = function () {
+    let value = event.target.value; // gets the value from oninput event
+    circleThree.style.opacity = parseInt(value) / 50; // returns continuous value between 0 and 1
+    circleFour.style.opacity = parseInt(value) / 50;
+    circleFive.style.opacity = parseInt(value-50) / 50;
+    circleSix.style.opacity = parseInt(value-50) / 50;
 }
-  if (parseInt(value) <= 50) {
-    circleOne.style.opacity = "100%";
-  }
-  else {
-    circleOne.style.opacity = "0%";
-  }
-}
-
-
-
 
 
