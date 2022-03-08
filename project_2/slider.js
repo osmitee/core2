@@ -2,7 +2,7 @@ let circleThree = document.getElementById("circle-three");
 let circleFour = document.getElementById("circle-four");
 let circleFive = document.getElementById("circle-five");
 let circleSix = document.getElementById("circle-six");
-let slider = document.querySelector("input[type='range']");
+var slider = document.querySelector("input[type='range']");
 
 slider.oninput = function () {
     let value = event.target.value; // gets the value from oninput event
