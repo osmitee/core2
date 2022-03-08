@@ -1,3 +1,9 @@
+@font-face {
+  font-family: digital-numbers;
+  src: url(DigitalNumbers-Regular.woff);
+  font-display: swap;
+}
+
 body {
   background-color: #b685f4;
   font-family: stick no bills;
@@ -42,10 +48,6 @@ body {
   text-align: center;
 }
 
-.blue-container {
-  opacity: 100%;
-}
-
 .one {
   width: 180px;
   height: 180px;
@@ -69,10 +71,6 @@ body {
   mix-blend-mode: overlay;
 }
 
-.pink-container {
-  opacity: 100%;
-}
-
 .three {
   width: 162px;
   height: 211px;
@@ -84,6 +82,7 @@ body {
   font-size: 30px;
   transform: rotate(20deg);
   z-index: -1;
+  opacity: 0%;
 }
 
 .txt {
@@ -100,15 +99,12 @@ body {
   font-size: 18px;
   transform: rotate(60deg);
   z-index: -1;
-}
-
-.purple-container {
-  opacity: 100%;
+  opacity: 0%;
 }
 
 .five {
   width: 159px;
-  height: 356px;
+  height: 250px;
   background-color: #7e51ff;
   border-radius: 100%;
   position: relative;
@@ -117,6 +113,7 @@ body {
   font-size: 23px;
   mix-blend-mode: overlay;
   z-index: -1;
+  opacity: 0%;
 }
 
 .six {
@@ -125,14 +122,39 @@ body {
   background-color: #7e51ff;
   border-radius: 100%;
   position: relative;
-  top: -888px;
+  top: -777px;
   left: 120px;
   font-size: 23px;
   mix-blend-mode: overlay;
   z-index: 1;
   transform: rotate(-11deg);
+  opacity: 0%;
 }
 
 .txt2 {
   transform: rotate(11deg);
+}
+
+button {
+  position: absolute;
+  background-color: #d162d5;
+  border-radius: 100%;
+  padding: 5%;
+  border: dotted 2px #6bc4fc;
+  font-family: digital-numbers;
+  color: #fff;
+  left: 32%;
+  bottom: -7px;
+  margin-bottom: 20px;
+  box-shadow: 4px 4px #6bc4fc;
+  opacity: 0%;
+}
+
+button:active {
+  background-color: #d162d5;
+  color: #fff;
+  border: dotted 2px #6bc4fc;
+  box-shadow: 0px 0px;
+  left: 33%;
+  bottom: -14px;
 }
