@@ -1,0 +1,131 @@
+@font-face {
+  font-family: digital-numbers;
+  src: url(DigitalNumbers-Regular.woff);
+  font-display: swap;
+}
+
+body {
+  background-color: #000;
+  font-family: "digital-numbers";
+  font-size: 30px;
+  color: #fff;
+}
+
+.cart-container {
+  display: grid;
+  grid-template-columns: 50%;
+  grid-template-rows: 10% 20% 12% 23% 16% 10%;
+  justify-items: center;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #936dd4;
+  padding: 5%;
+  border-radius: 11px;
+  width: 290px;
+  position: relative;
+  left: 17px;
+  top: -20px;
+  z-index: -1;
+  height: 700px;
+}
+
+.two,
+.four,
+.six,
+.eight,
+.ten,
+.twelve,
+.fourteen,
+.sixteen {
+  position: absolute;
+  bottom: 1%;
+  left: 0%;
+}
+
+.one,
+.three,
+.five,
+.seven,
+.nine,
+.eleven,
+.thirteen,
+.fifteen {
+  position: absolute;
+  top: 1%;
+  left: 0%;
+}
+
+.soundboard-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-template-rows: 25% 30% 25% 30% 25% 30% 25% 30%;
+  justify-items: center;
+  align-items: center;
+  left: -70px;
+  top: 160px;
+}
+
+.box {
+  position: relative;
+  width: 111px;
+  height: 111px;
+  border-radius: 11px;
+  left: 100px;
+}
+
+.a {
+  background-color: #ff7c7c;
+}
+
+.b {
+  background-color: #99ffb6;
+}
+
+.c {
+  background-color: #ff70c6;
+}
+
+.d {
+  background-color: #6bc4fc;
+}
+
+.e {
+  background-color: #9d70ff;
+}
+
+.f {
+  background-color: #d9ff6f;
+}
+
+.g {
+  background-color: #7785ff;
+}
+
+.h {
+  background-color: #e336ff;
+}
+
+button {
+  position: absolute;
+  background-color: #818181;
+  border-radius: 100%;
+  padding: 5%;
+  border: dotted 2px #383838;
+  font-family: digital-numbers;
+  color: #fff;
+  left: 35%;
+  bottom: 70px;
+  margin-bottom: 20px;
+  box-shadow: 4px 4px #bbbbbb;
+  z-index: 1;
+}
+
+button:active {
+  background-color: #818181;
+  color: #fff;
+  border: dotted 2px #383838;
+  box-shadow: 0px 0px;
+  left: 37%;
+  bottom: 60px;
+}
