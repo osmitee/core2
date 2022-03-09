@@ -55,6 +55,7 @@ body {
   top: 1%;
   left: 0%;
   color: #ff7c7c;
+  animation: color;
 }
 
 .soundboard-container {
@@ -134,4 +135,13 @@ button:active {
   box-shadow: 0px 0px;
   left: 37%;
   bottom: 60px;
+}
+
+@keyframes color {
+  0% {
+    color: greenyellow;
+  }
+  100% {
+    color: cyan;
+  }
 }
