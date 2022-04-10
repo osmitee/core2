@@ -1,0 +1,119 @@
+body {
+    background-image: url(illustrations/background.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: #13100b;
+}
+
+.tv {
+    position: absolute;
+    width: 1412px;
+    height: 844px;
+    right: 0px;
+    top: 20px;
+}
+
+.tape {
+    display: inline-block;
+    position: absolute;
+    width: 1512px;
+    height: 945px;
+    left: -30px;
+    top: 10px;
+}
+
+.episodes {
+    display:inline-block;
+    position: absolute;
+    width: 320px;
+    height: 90px;
+    left: 172px;
+    top: 192px;
+    z-index: 2;
+    transition: 1s;
+}
+
+.episodes:hover {
+    position: absolute;
+    width: 320px;
+    height: 90px;
+    left: 206px;
+    top: 190px;
+    transition: 1s;
+}
+
+.characters {
+    position: absolute;
+    width: 320px;
+    height: 94px;
+    left: 173px;
+    top: 252px;
+    z-index: 1;
+}
+
+.music {
+position: absolute;
+width: 324px;
+height: 94px;
+left: 170px;
+top: 318px;
+    z-index: 1;
+}
+
+.locations {
+    position: absolute;
+    width: 323px;
+    height: 95px;
+    left: 171px;
+    top: 378px;
+        z-index: 1;
+}
+
+.costumes {
+    position: absolute;
+    width: 320px;
+    height: 94px;
+    left: 173px;
+    top: 440px;
+    z-index: 1;
+}
+
+.shelf-exterior {
+    position: absolute;
+    width: 1512px;
+    height: 945px;
+    left: 0px;
+    top: 0px;
+    z-index: 2;
+}
+
+.shelf-interior {
+    position: absolute;
+    width: 1512px;
+    height: 945px;
+    left: 0px;
+    top: 0px;
+}
+
+.shelf-bg {
+    position: absolute;
+    width: 1512px;
+    height: 945px;
+    left: 0px;
+    top: 0px;
+}
+
+.shelf {
+    position: absolute;
+    top: -40px;
+}
+
+h3 {
+    font-family: armstrong;
+    color: white;
+    position:relative;
+    top: 35rem;
+    left: 40rem;
+    transform: rotate3d(0, 1, 0.04, 30deg);
+
+}

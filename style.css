@@ -1,6 +1,6 @@
 body {
   background-color: #daafda;
-  min-height: 100vh;
+  min-height: 110vh;
 }
 
 h1 {
@@ -22,17 +22,26 @@ span {
   padding-bottom: 3%;
 }
 
+h3 {
+  font-family: antique-olive, sans-serif;
+  text-align: center;
+  color: #fff;
+    font-weight: 100;
+}
+
 p {
   font-family: antique-olive, sans-serif;
   text-align: center;
   color: #fff;
+  position: relative;
+  top: 170px;
 }
 
 a {
   background-color: #b685f4;
   color: white;
   text-decoration: none;
-  padding: 2%;
+  padding: 20%;
   font-family: antique-olive, sans-serif;
   position: relative;
   left: 26%;
@@ -45,11 +54,22 @@ a:hover {
 
 iframe {
   position: absolute;
-  left: 35%;
+  left: 34.5%;
+  top: 80%;
 }
 
 @font-face {
   font-family: blocus;
   src: url(blocuswebfont.woff);
   font-display: swap;
+}
+
+.links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    grid-gap:20px;
+    position: absolute;
+    left: 29%;
 }
