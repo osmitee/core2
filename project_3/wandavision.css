@@ -169,6 +169,13 @@ top: 322px;
     transition: 1s;
 }
 
+.easter-eggs:hover {
+    left: 205px;
+    top: 685px;
+    transition: 1s;
+    filter: brightness(130%);
+}
+
 .inspiration {
     position: absolute;
     width: 322px;
@@ -179,10 +186,17 @@ top: 322px;
     transition: 1s;
 }
 
+.inspiration:hover {
+    left: 205px;
+    top: 750px;
+    transition: 1s;
+    filter: brightness(130%);
+}
+
 .shelf-exterior {
     position: absolute;
     width: 171px;
-    height: 707px;
+    height: 705px;
     left: 32px;
     top: 172px;
     z-index: 3;
