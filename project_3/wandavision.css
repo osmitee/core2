@@ -23,23 +23,20 @@ body {
 }
 
 .episodes {
-    display:inline-block;
     position: absolute;
     width: 320px;
     height: 90px;
     left: 172px;
-    top: 192px;
-    z-index: 2;
+    top: 202px;
+    z-index: 1;
     transition: 1s;
 }
 
 .episodes:hover {
-    position: absolute;
-    width: 320px;
-    height: 90px;
-    left: 206px;
-    top: 190px;
+left: 208px;
+top: 197px;
     transition: 1s;
+        filter: brightness(130%);
 }
 
 .characters {
@@ -47,8 +44,17 @@ body {
     width: 320px;
     height: 94px;
     left: 173px;
-    top: 252px;
+    top: 260px;
     z-index: 1;
+    transition: 1s;
+}
+
+.characters:hover {
+    left: 200px;
+    top: 255px;
+    z-index: 1;
+    transition: 1s;
+    filter: brightness(130%);
 }
 
 .music {
@@ -56,8 +62,16 @@ position: absolute;
 width: 324px;
 height: 94px;
 left: 170px;
-top: 318px;
+top: 322px;
     z-index: 1;
+    transition: 1s;
+}
+
+.music:hover {
+    left: 199px;
+    top: 320px;
+    transition: 1s;
+        filter: brightness(130%);
 }
 
 .locations {
@@ -67,6 +81,13 @@ top: 318px;
     left: 171px;
     top: 378px;
         z-index: 1;
+        transition: 1s;
+}
+
+.locations:hover {
+    left: 201px;
+    top: 378px;
+    filter: brightness(130%);
 }
 
 .costumes {
@@ -74,17 +95,97 @@ top: 318px;
     width: 320px;
     height: 94px;
     left: 173px;
-    top: 440px;
+    top: 438px;
     z-index: 1;
+    transition: 1s;
+}
+
+.costumes:hover {
+    left: 203px;
+    top: 439px;
+    transition: 1s;
+    filter: brightness(130%);
+}
+
+.iconic-moments {
+    position: absolute;
+    width: 321px;
+    height: 94px;
+    left: 172px;
+    top: 499px;
+    z-index: 1;
+    transition: 1s;
+}
+
+.iconic-moments:hover {
+    left: 203px;
+    top: 499px;
+    transition: 1s;
+        filter: brightness(130%);
+}
+
+.magic {
+    position: absolute;
+    width: 323px;
+    height: 95px;
+    left: 172px;
+    top: 555px;
+    z-index: 1;
+    transition: 1s;
+    
+}
+
+.magic:hover {
+    left: 203px;
+    top: 555px;
+    transition: 1s;
+        filter: brightness(130%);
+}
+
+.trailers-posters {
+    position: absolute;
+    width: 321px;
+    height: 94px;
+    left: 174px;
+    top: 616px;
+    z-index: 2;
+    transition: 1s;
+}
+
+.trailers-posters:hover {
+    left: 205px;
+    top: 617px;
+        transition: 1s;
+        filter: brightness(130%);
+}
+
+.easter-eggs {
+    position: absolute;
+    width: 321px;
+    height: 94px;
+    left: 176px;
+    top: 680px;
+    z-index: 1;
+    transition: 1s;
+}
+
+.inspiration {
+    position: absolute;
+    width: 322px;
+    height: 94px;
+    left: 174px;
+    top: 742px;
+    z-index: 0;
+    transition: 1s;
 }
 
 .shelf-exterior {
     position: absolute;
-    width: 1512px;
-    height: 945px;
-    left: 0px;
-    top: 0px;
-    z-index: 2;
+    width: 171px;
+    height: 707px;
+    left: 32px;
+    top: 172px;
+    z-index: 3;
 }
 
 .shelf-interior {
