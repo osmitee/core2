@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'VCR OSD Mono';
+    font-style: normal;
+    font-weight: normal;
+    src: local('VCR OSD Mono'), url('VCR_OSD_MONO_1.001[1].woff') format('woff');
+}
+
 body {
     background-color: #13100b;
 }
@@ -28,6 +35,11 @@ body {
     top: 90px;
 }
 
+.tapes {
+    position: absolute;
+    top: -125px;
+}
+
 .episodes {
     position: absolute;
     width: 320px;
@@ -36,7 +48,6 @@ body {
     top: 202px;
     z-index: 1;
     transition: 1s;
-    height: auto;
 }
 
 .episodes:hover {
@@ -54,11 +65,6 @@ top: 197px;
     top: 260px;
     z-index: 1;
     transition: 1s;
-    height: auto;
-}
-
-.characters img {
-    float: left;
 }
 
 .characters:hover {
@@ -71,13 +77,12 @@ top: 197px;
 
 .music {
 position: absolute;
-width:  324px;
+width: 324px;
 height: 94px;
 left: 170px;
 top: 322px;
-z-index: 1;
-transition: 1s;
-height: auto;
+    z-index: 1;
+    transition: 1s;
 }
 
 .music:hover {
@@ -85,7 +90,6 @@ height: auto;
     top: 320px;
     transition: 1s;
         filter: brightness(130%);
-        
 }
 
 .locations {
@@ -96,7 +100,6 @@ height: auto;
     top: 378px;
         z-index: 1;
         transition: 1s;
-        height: auto;
 }
 
 .locations:hover {
@@ -113,7 +116,6 @@ height: auto;
     top: 438px;
     z-index: 1;
     transition: 1s;
-    height: auto;
 }
 
 .costumes:hover {
@@ -131,7 +133,6 @@ height: auto;
     top: 499px;
     z-index: 1;
     transition: 1s;
-    height: auto;
 }
 
 .iconic-moments:hover {
@@ -149,7 +150,6 @@ height: auto;
     top: 555px;
     z-index: 1;
     transition: 1s;
-    height: auto;
     
 }
 
@@ -168,7 +168,6 @@ height: auto;
     top: 616px;
     z-index: 2;
     transition: 1s;
-    height: auto;
 }
 
 .trailers-posters:hover {
@@ -180,13 +179,12 @@ height: auto;
 
 .easter-eggs {
     position: absolute;
-    width:321px;
+    width: 321px;
     height: 94px;
     left: 176px;
     top: 680px;
     z-index: 1;
     transition: 1s;
-    height: auto;
 }
 
 .easter-eggs:hover {
@@ -204,7 +202,6 @@ height: auto;
     top: 742px;
     z-index: 0;
     transition: 1s;
-    height: auto;
 }
 
 .inspiration:hover {
@@ -212,7 +209,15 @@ height: auto;
     top: 750px;
     transition: 1s;
     filter: brightness(130%);
-    
+}
+
+.shelf-exterior {
+    position: absolute;
+    width: 171px;
+    height: 705px;
+    left: 32px;
+    top: 172px;
+    z-index: 3;
 }
 
 .shelf-exterior {
@@ -240,42 +245,19 @@ height: auto;
     top: 0px;
 }
 
-
-/* .shelf {
-    position: absolute;
-    width:100%;
-    top: 0px;
-    left: 50px;
-} */ 
-
-/* .shelf-exterior {
-    position: relative;
-    width: 10%;
-    left: 10%;
-    top: -555px;
-        z-index: 3;
-}
-
-.shelf-interior {
-    position: relative;
-    width: 90%;
-    left: 9%;
-    top: -3100px;
-} */
-
 .shelf {
-    position: relative;
-    width: 80%;
-    left: 5%;
-    bottom:30%;
+    position: absolute;
+    top: -130px;
 }
 
 h3 {
-    font-family: armstrong;
+    font-family: VCR OSD Mono;
     color: white;
     position:relative;
-    top: 35rem;
-    left: 40rem;
-    transform: rotate3d(0, 1, 0.04, 30deg);
+    top: 29.5rem;
+    left: 37rem;
+    z-index: 1;
+    font-size: 15px;
+    transform: rotate3d(0, 2, 0.04, 30deg);
 
 }
