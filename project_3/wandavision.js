@@ -10,11 +10,12 @@ fetch('https://api.airtable.com/v0/appGeugv5v8JANFJa/wandavision', {
         console.log(data);
         const wandavision = document.querySelector('.wandavision');
         
-        data.records.slice(0, 1)
+        data.records.sort((a, b) => a.fields.order - b.fields.order)
+        .slice(0, 1)
         .forEach(item => {
             console.log(item);
             wandavision.innerHTML += `
-        <h3 class="title">${item.fields.title}</h3>
+        <h3 class="title">${item.fields.episodes}</h3>
             `;
 });
 });
