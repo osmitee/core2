@@ -38,15 +38,27 @@ function episodes() {
     else {
         episodes.style.left = '172px';
     }
+    episodes.style.filter = 'brightness(130%)';
     var fifties = document.getElementById('ep-50s');
     fifties.style.visibility = 'visible';
 }
 
+function episode() {
+    var episodes = document.getElementById('episodes');
+    if (episodes.style.left = '208px') {
+        episodes.style.left = '172px'
+    }
+    else {
+        episodes.style.left = '208px';
+    }
+        episodes.style.filter = 'brightness(100%)';
+    var fifties = document.getElementById('ep-50s');
+    fifties.style.visibility = 'hidden';
+}
 
- 
 function characters() {
     var characters = document.getElementById('characters');
-    characters.style.left = '208px';
-    characters.style.top = '197px';
+    characters.style.left = '200px';
+    characters.style.top = '255px';
     characters.style.filter = 'brightness(130%)';
 }

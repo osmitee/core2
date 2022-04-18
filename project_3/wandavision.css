@@ -52,11 +52,8 @@ body {
 }
 
 .episodes:hover {
-left: 208px;
-top: 197px;
-transition: 1s;
-filter: brightness(130%);
-cursor: pointer;
+    transition: 1s;
+    cursor: pointer;
 }
 
 .characters {
