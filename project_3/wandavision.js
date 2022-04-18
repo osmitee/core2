@@ -1,6 +1,6 @@
 console.log("*elizabeth olsen voice* previously on wandavision!")
 
-fetch('https://api.airtable.com/v0/appGeugv5v8JANFJa/wandavision/recukyswT5ZFGJBjK', {
+fetch('https://api.airtable.com/v0/appGeugv5v8JANFJa/wandavision', {
     headers: {
         Authorization: 'Bearer keyOtukKKZyVwSugv',
     }
@@ -15,7 +15,7 @@ fetch('https://api.airtable.com/v0/appGeugv5v8JANFJa/wandavision/recukyswT5ZFGJB
         .forEach(item => {
             console.log(item);
             wandavision.innerHTML += `
-       <iframe width="560" height="315" src="${item.fields.episode-vids}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <video loop muted autoplay src="${item.fields.episode_videos}"></video>
             `;
 });
     });

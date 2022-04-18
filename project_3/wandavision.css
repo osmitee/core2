@@ -33,6 +33,7 @@ body {
     width: 88%;
     left: 8%;
     top: 90px;
+        z-index: 1;
 }
 
 .tapes {
@@ -250,18 +251,24 @@ top: 322px;
     top: -130px;
 }
 
-/* h3 {
+h3 {
     font-family: VCR OSD Mono;
     color: white;
     position:relative;
     top: 29.5rem;
     left: 37rem;
-    z-index: 1;
+    z-index: 2;
     font-size: 15px;
     transform: rotate3d(0, 2, 0.04, 30deg);
 
-}*/
+}
 
-iframe {
-    z-index: 2;
-} 
+video {
+    width: 36%;
+    position: absolute;
+    left: 570px;
+    z-index: 0;
+    transform: rotate3d(0, 4, 0, 30deg);
+    top: 132px;
+    
+}
