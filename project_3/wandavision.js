@@ -61,4 +61,12 @@ function characters() {
     characters.style.left = '200px';
     characters.style.top = '255px';
     characters.style.filter = 'brightness(130%)';
+        var episodes = document.getElementById('episodes');
+    if (episodes.style.left = '208px') {
+        episodes.style.left = '172px'
+    }
+    else {
+        episodes.style.left = '208px';
+    }
+     episodes.style.filter = 'brightness(100%)';
 }
