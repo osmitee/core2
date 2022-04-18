@@ -250,7 +250,7 @@ top: 322px;
     top: -130px;
 }
 
-h3 {
+/* h3 {
     font-family: VCR OSD Mono;
     color: white;
     position:relative;
@@ -260,4 +260,8 @@ h3 {
     font-size: 15px;
     transform: rotate3d(0, 2, 0.04, 30deg);
 
-}
+}*/
+
+iframe {
+    z-index: 2;
+} 
