@@ -36,6 +36,14 @@ body {
         z-index: 1;
 }
 
+.screen {
+    position: relative;
+    width: 88%;
+    left: 8%;
+    top: -700px;
+    z-index: 0;
+}
+
 .tapes {
     position: absolute;
     top: -125px;
@@ -261,13 +269,13 @@ h3 {
 
 }
 
-video {
+.episode-50s {
     width: 36%;
     position: absolute;
     left: 570px;
-    z-index: 0;
+    z-index: 1;
     transform: rotate3d(0, 4, 0, 30deg);
     top: 132px;
     visibility: hidden;
-    
+    opacity: 80%;
 }

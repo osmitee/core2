@@ -15,7 +15,7 @@ fetch('https://api.airtable.com/v0/appGeugv5v8JANFJa/wandavision', {
         .forEach(item => {
             console.log(item);
             wandavision.innerHTML += `
-        <video loop muted autoplay src="${item.fields.episode_videos}"></video>
+        <video loop muted autoplay class="episode-50s" id="ep-50s" src="${item.fields.episode_videos[0].url}"></video>
             `;
 });
     });
@@ -29,6 +29,7 @@ fetch('https://api.airtable.com/v0/appGeugv5v8JANFJa/wandavision', {
 //     fifties.style.visibility = 'visible';
 // }
 
+// onclick
 
 function episodes() {
     var episodes = document.getElementById('episodes');
@@ -42,6 +43,8 @@ function episodes() {
     var fifties = document.getElementById('ep-50s');
     fifties.style.visibility = 'visible';
 }
+
+// onmouseover
 
 function episode() {
     var episodes = document.getElementById('episodes');
@@ -68,5 +71,7 @@ function characters() {
     else {
         episodes.style.left = '208px';
     }
-     episodes.style.filter = 'brightness(100%)';
+    episodes.style.filter = 'brightness(100%)';
+      var fifties = document.getElementById('ep-50s');
+    fifties.style.visibility = 'hidden';
 }
