@@ -75,11 +75,8 @@ body {
 }
 
 .characters:hover {
-    left: 200px;
-    top: 255px;
-    z-index: 1;
     transition: 1s;
-    filter: brightness(130%);
+    cursor: pointer;
 }
 
 .music {
@@ -93,10 +90,8 @@ top: 322px;
 }
 
 .music:hover {
-    left: 199px;
-    top: 320px;
     transition: 1s;
-        filter: brightness(130%);
+    cursor: pointer;
 }
 
 .locations {
@@ -110,9 +105,8 @@ top: 322px;
 }
 
 .locations:hover {
-    left: 201px;
-    top: 378px;
-    filter: brightness(130%);
+transition: 1s;
+cursor: pointer;
 }
 
 .costumes {
@@ -126,10 +120,8 @@ top: 322px;
 }
 
 .costumes:hover {
-    left: 203px;
-    top: 439px;
     transition: 1s;
-    filter: brightness(130%);
+    cursor: pointer;
 }
 
 .iconic-moments {
@@ -143,10 +135,8 @@ top: 322px;
 }
 
 .iconic-moments:hover {
-    left: 203px;
-    top: 499px;
     transition: 1s;
-        filter: brightness(130%);
+    cursor: pointer;
 }
 
 .magic {
@@ -161,10 +151,8 @@ top: 322px;
 }
 
 .magic:hover {
-    left: 203px;
-    top: 555px;
     transition: 1s;
-        filter: brightness(130%);
+        cursor: pointer;
 }
 
 .trailers-posters {
@@ -178,10 +166,8 @@ top: 322px;
 }
 
 .trailers-posters:hover {
-    left: 205px;
-    top: 617px;
         transition: 1s;
-        filter: brightness(130%);
+        cursor: pointer;
 }
 
 .easter-eggs {
@@ -195,10 +181,8 @@ top: 322px;
 }
 
 .easter-eggs:hover {
-    left: 205px;
-    top: 685px;
     transition: 1s;
-    filter: brightness(130%);
+            cursor: pointer;
 }
 
 .inspiration {
@@ -207,15 +191,13 @@ top: 322px;
     height: 94px;
     left: 174px;
     top: 742px;
-    z-index: 0;
+    z-index: 1;
     transition: 1s;
 }
 
 .inspiration:hover {
-    left: 205px;
-    top: 750px;
     transition: 1s;
-    filter: brightness(130%);
+            cursor: pointer;
 }
 
 .shelf-exterior {

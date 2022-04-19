@@ -56,6 +56,10 @@ function episodes() {
     else {
         episodes.style.left = '172px';
     }
+    var characters = document.getElementById('characters');
+    characters.style.left = '173px';
+    characters.style.top = '260px';
+    characters.style.filter = 'brightness(100%)';
     episodes.style.filter = 'brightness(130%)';
     var fifties = document.getElementById('ep-50s');
     fifties.style.visibility = 'visible';
@@ -96,3 +100,235 @@ function characters() {
       var fifties = document.getElementById('ep-50s');
     fifties.style.visibility = 'hidden';
 }
+
+function character() {
+   var characters = document.getElementById('characters');
+    characters.style.left = '173px';
+    characters.style.top = '260px';
+    characters.style.filter = 'brightness(100%)';
+}
+
+function musics() {
+    var music = document.getElementById('music');
+    music.style.left = '199px';
+    music.style.top = '320px';
+    music.style.filter = 'brightness(130%)';
+        var episodes = document.getElementById('episodes');
+    if (episodes.style.left = '208px') {
+        episodes.style.left = '172px'
+    }
+    else {
+        episodes.style.left = '208px';
+    }
+    var characters = document.getElementById('characters');
+    characters.style.left = '173px';
+    characters.style.top = '260px';
+    characters.style.filter = 'brightness(100%)';
+    episodes.style.filter = 'brightness(100%)';
+      var fifties = document.getElementById('ep-50s');
+    fifties.style.visibility = 'hidden';
+}
+
+function music() {
+   var music = document.getElementById('music');
+    music.style.left = '170px';
+    music.style.top = '322px';
+    music.style.filter = 'brightness(100%)';
+}
+
+function locations() {
+    var location = document.getElementById('locations');
+    location.style.left = '201px';
+    location.style.top = '378px';
+    location.style.filter = 'brightness(130%)';
+        var episodes = document.getElementById('episodes');
+    if (episodes.style.left = '208px') {
+        episodes.style.left = '172px'
+    }
+    else {
+        episodes.style.left = '208px';
+    }
+    var characters = document.getElementById('characters');
+    characters.style.left = '173px';
+    characters.style.top = '260px';
+    characters.style.filter = 'brightness(100%)';
+    episodes.style.filter = 'brightness(100%)';
+      var fifties = document.getElementById('ep-50s');
+    fifties.style.visibility = 'hidden';
+}
+
+function locate() {
+   var location = document.getElementById('locations');
+    location.style.left = '171px';
+    location.style.top = '378px';
+    location.style.filter = 'brightness(100%)';
+}
+
+function costumes() {
+    var costumes = document.getElementById('costumes');
+    costumes.style.left = '203px';
+    costumes.style.top = '439px';
+    costumes.style.filter = 'brightness(130%)';
+        var episodes = document.getElementById('episodes');
+    if (episodes.style.left = '208px') {
+        episodes.style.left = '172px'
+    }
+    else {
+        episodes.style.left = '208px';
+    }
+    var characters = document.getElementById('characters');
+    characters.style.left = '173px';
+    characters.style.top = '260px';
+    characters.style.filter = 'brightness(100%)';
+    episodes.style.filter = 'brightness(100%)';
+      var fifties = document.getElementById('ep-50s');
+    fifties.style.visibility = 'hidden';
+}
+
+function costume() {
+   var costumes = document.getElementById('costumes');
+    costumes.style.left = '173px';
+    costumes.style.top = '438px';
+    costumes.style.filter = 'brightness(100%)';
+}
+
+function iconicmoments() {
+    var iconic = document.getElementById('iconic');
+    iconic.style.left = '203px';
+    iconic.style.top = '499px';
+    iconic.style.filter = 'brightness(130%)';
+        var episodes = document.getElementById('episodes');
+    if (episodes.style.left = '208px') {
+        episodes.style.left = '172px'
+    }
+    else {
+        episodes.style.left = '208px';
+    }
+    var characters = document.getElementById('characters');
+    characters.style.left = '173px';
+    characters.style.top = '260px';
+    characters.style.filter = 'brightness(100%)';
+    episodes.style.filter = 'brightness(100%)';
+      var fifties = document.getElementById('ep-50s');
+    fifties.style.visibility = 'hidden';
+}
+
+function iconic() {
+   var iconic = document.getElementById('iconic');
+    iconic.style.left = '172px';
+    iconic.style.top = '499px';
+    iconic.style.filter = 'brightness(100%)';
+}
+
+function magics() {
+    var magic = document.getElementById('magic');
+    magic.style.left = '203px';
+    magic.style.top = '555px';
+    magic.style.filter = 'brightness(130%)';
+        var episodes = document.getElementById('episodes');
+    if (episodes.style.left = '208px') {
+        episodes.style.left = '172px'
+    }
+    else {
+        episodes.style.left = '208px';
+    }
+    var characters = document.getElementById('characters');
+    characters.style.left = '173px';
+    characters.style.top = '260px';
+    characters.style.filter = 'brightness(100%)';
+    episodes.style.filter = 'brightness(100%)';
+      var fifties = document.getElementById('ep-50s');
+    fifties.style.visibility = 'hidden';
+}
+
+function magic() {
+   var magic = document.getElementById('magic');
+    magic.style.left = '172px';
+    magic.style.top = '555px';
+    magic.style.filter = 'brightness(100%)';
+}
+
+function trailers() {
+    var trailers = document.getElementById('trailers');
+    trailers.style.left = '205px';
+    trailers.style.top = '617px';
+    trailers.style.filter = 'brightness(130%)';
+        var episodes = document.getElementById('episodes');
+    if (episodes.style.left = '208px') {
+        episodes.style.left = '172px'
+    }
+    else {
+        episodes.style.left = '208px';
+    }
+    var characters = document.getElementById('characters');
+    characters.style.left = '173px';
+    characters.style.top = '260px';
+    characters.style.filter = 'brightness(100%)';
+    episodes.style.filter = 'brightness(100%)';
+      var fifties = document.getElementById('ep-50s');
+    fifties.style.visibility = 'hidden';
+}
+
+function trailer() {
+   var trailers = document.getElementById('trailers');
+    trailers.style.left = '174px';
+    trailers.style.top = '616px';
+    trailers.style.filter = 'brightness(100%)';
+}
+
+function easters() {
+    var easter = document.getElementById('easter');
+    easter.style.left = '205px';
+    easter.style.top = '685px';
+    easter.style.filter = 'brightness(130%)';
+        var episodes = document.getElementById('episodes');
+    if (episodes.style.left = '208px') {
+        episodes.style.left = '172px'
+    }
+    else {
+        episodes.style.left = '208px';
+    }
+    var characters = document.getElementById('characters');
+    characters.style.left = '173px';
+    characters.style.top = '260px';
+    characters.style.filter = 'brightness(100%)';
+    episodes.style.filter = 'brightness(100%)';
+      var fifties = document.getElementById('ep-50s');
+    fifties.style.visibility = 'hidden';
+}
+
+function easter() {
+   var easter = document.getElementById('easter');
+    easter.style.left = '176px';
+    easter.style.top = '680px';
+    easter.style.filter = 'brightness(100%)';
+}
+
+function inspos() {
+    var inspo = document.getElementById('inspo');
+    inspo.style.left = '205px';
+    inspo.style.top = '750px';
+    inspo.style.filter = 'brightness(130%)';
+        var episodes = document.getElementById('episodes');
+    if (episodes.style.left = '208px') {
+        episodes.style.left = '172px'
+    }
+    else {
+        episodes.style.left = '208px';
+    }
+    var characters = document.getElementById('characters');
+    characters.style.left = '173px';
+    characters.style.top = '260px';
+    characters.style.filter = 'brightness(100%)';
+    episodes.style.filter = 'brightness(100%)';
+      var fifties = document.getElementById('ep-50s');
+    fifties.style.visibility = 'hidden';
+}
+
+function inspo() {
+   var inspo = document.getElementById('inspo');
+    inspo.style.left = '174px';
+    inspo.style.top = '742px';
+    inspo.style.filter = 'brightness(100%)';
+}
+
