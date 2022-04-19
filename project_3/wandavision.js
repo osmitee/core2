@@ -332,3 +332,16 @@ function inspo() {
     inspo.style.filter = 'brightness(100%)';
 }
 
+function buttonsixties() {
+var characters = document.getElementById('characters')
+characters.style.visibility = “visible”;
+var music = document.getElementById('music')
+characters.style.visibility = “hidden”;
+var locations = document.getElementById('locations')
+locations.style.visibility = “hidden”;
+var costumes = document.getElementById('costumes')
+costumes.style.visibility = “hidden”;
+var magic = document.getElementById('magic')
+magic.style.visibility = “hidden”;
+var inspiration = document.getElementById('magic')
+magic.style.visibility = “hidden”;
