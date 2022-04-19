@@ -33,14 +33,14 @@ body {
     width: 88%;
     left: 8%;
     top: 90px;
-        z-index: 1;
+    z-index: 1;
 }
 
 .screen {
-    position: relative;
+    position: absolute;
     width: 88%;
     left: 8%;
-    top: -700px;
+    bottom: 65px;
     z-index: 0;
 }
 
@@ -269,7 +269,7 @@ h3 {
 
 }
 
-.episode-50s {
+.episode-screen {
     width: 36%;
     position: absolute;
     left: 570px;
@@ -278,4 +278,60 @@ h3 {
     top: 132px;
     visibility: hidden;
     opacity: 80%;
+}
+
+.buttonfifties {
+    position: relative;
+    z-index: 2;
+    left: 600px;
+    top: 505px;
+    width: 5%;
+}
+
+.buttonsixties {
+    position: relative;
+    z-index: 2;
+    left: 600px;
+    top: 508px;
+    width: 5%;
+}
+
+.buttonseventies {
+    position: relative;
+    z-index: 2;
+    left: 600px;
+    top: 511px;
+    width: 5%;
+}
+
+.buttoneighties {
+    position: relative;
+    z-index: 2;
+    left: 600px;
+    top: 513px;
+    width: 5%;
+}
+
+.buttonnineties {
+    position: relative;
+    z-index: 2;
+    left: 600px;
+    top: 516px;
+    width: 5%;
+}
+
+.buttonnoughties {
+    position: relative;
+    z-index: 2;
+    left: 600px;
+    top: 518px;
+    width: 5%;
+}
+
+.buttonpresent {
+    position: relative;
+    z-index: 2;
+    left: 600px;
+    top: 520px;
+    width: 5%;
 }

@@ -9,15 +9,32 @@ fetch('https://api.airtable.com/v0/appGeugv5v8JANFJa/wandavision', {
     .then(data => {
         console.log(data);
         const wandavision = document.querySelector('.wandavision');
-        
+ 
         data.records.sort((a, b) => a.fields.order - b.fields.order)
-        .slice(0, 1)
-        .forEach(item => {
-            console.log(item);
-            wandavision.innerHTML += `
-        <video loop muted autoplay class="episode-50s" id="ep-50s" src="${item.fields.episode_videos[0].url}"></video>
+            .slice(0, 1)
+            .forEach(item => {
+                console.log(item);
+                wandavision.innerHTML += `
+        <video loop muted autoplay class="episode-screen" id="ep-50s" src="${item.fields.episode_videos[0].url}"></video>
             `;
-});
+            }
+        ,data.records.sort((a, b) => a.fields.order - b.fields.order)
+            .slice(1, 2)
+            .forEach(item => {
+                console.log(item);
+                wandavision.innerHTML += `
+        <video loop muted autoplay class="episode-screen" id="ep-60s" src="${item.fields.episode_videos[0].url}"></video>
+            `;
+            }
+        ,data.records.sort((a, b) => a.fields.order - b.fields.order)
+            .slice(2, 3)
+            .forEach(item => {
+                console.log(item);
+                wandavision.innerHTML += `
+        <video loop muted autoplay class="episode-screen" id="ep-70s" src="${item.fields.episode_videos[0].url}"></video>
+            `;
+            }
+        )));
     });
 
 // function episodes() {
@@ -42,6 +59,8 @@ function episodes() {
     episodes.style.filter = 'brightness(130%)';
     var fifties = document.getElementById('ep-50s');
     fifties.style.visibility = 'visible';
+    var sixties = document.getElementById('ep-60s');
+    sixties.style.visibility = 'visible';
 }
 
 // onmouseover
@@ -57,6 +76,8 @@ function episode() {
         episodes.style.filter = 'brightness(100%)';
     var fifties = document.getElementById('ep-50s');
     fifties.style.visibility = 'hidden';
+    var sixties = document.getElementById('ep-60s');
+    sixties.style.visibility = 'hidden';
 }
 
 function characters() {
