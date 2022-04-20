@@ -259,7 +259,7 @@ h3 {
     transform: rotate3d(0, 4, 0, 30deg);
     top: 132px;
     visibility: hidden;
-    opacity: 80%;
+    /* opacity: 80%; */
 }
 
 .buttonfifties {
