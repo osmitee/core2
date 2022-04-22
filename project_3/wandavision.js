@@ -34,7 +34,55 @@ fetch('https://api.airtable.com/v0/appGeugv5v8JANFJa/wandavision', {
         <video loop muted autoplay class="episode-screen" id="ep-70s" src="${item.fields.episode_videos[0].url}"></video>
             `;
             }
-        )));
+        ,data.records.sort((a, b) => a.fields.order - b.fields.order)
+            .slice(3, 4)
+            .forEach(item => {
+                console.log(item);
+                wandavision.innerHTML += `
+        <video loop muted autoplay class="episode-screen" id="ep-20s-1" src="${item.fields.episode_videos[0].url}"></video>
+            `;
+            }
+                ,data.records.sort((a, b) => a.fields.order - b.fields.order)
+            .slice(4, 5)
+            .forEach(item => {
+                console.log(item);
+                wandavision.innerHTML += `
+        <video loop muted autoplay class="episode-screen" id="ep-80s" src="${item.fields.episode_videos[0].url}"></video>
+            `;
+            }
+               ,data.records.sort((a, b) => a.fields.order - b.fields.order)
+            .slice(6, 7)
+            .forEach(item => {
+                console.log(item);
+                wandavision.innerHTML += `
+        <video loop muted autoplay class="episode-screen" id="ep-90s" src="${item.fields.episode_videos[0].url}"></video>
+            `;
+            }
+                ,data.records.sort((a, b) => a.fields.order - b.fields.order)
+            .slice(7, 8)
+            .forEach(item => {
+                console.log(item);
+                wandavision.innerHTML += `
+        <video loop muted autoplay class="episode-screen" id="ep-00s" src="${item.fields.episode_videos[0].url}"></video>
+            `;
+            }
+                ,data.records.sort((a, b) => a.fields.order - b.fields.order)
+            .slice(8, 9)
+            .forEach(item => {
+                console.log(item);
+                wandavision.innerHTML += `
+        <video loop muted autoplay class="episode-screen" id="ep-10s" src="${item.fields.episode_videos[0].url}"></video>
+            `;
+            }
+                ,data.records.sort((a, b) => a.fields.order - b.fields.order)
+            .slice(9, 10)
+            .forEach(item => {
+                console.log(item);
+                wandavision.innerHTML += `
+        <video loop muted autoplay class="episode-screen" id="ep-20s" src="${item.fields.episode_videos[0].url}"></video>
+            `;
+            }
+        )))))))));
     });
 
 // function episodes() {
@@ -333,16 +381,171 @@ function inspo() {
 }
 
 function buttonfifties() {
-    var characters = document.getElementById('ep-60s')
-    characters.style.visibility = 'visible';
-    var music = document.getElementById('ep-50s')
-    characters.style.visibility = 'hidden';
-    // var locations = document.getElementById('locations')
-    // locations.style.visibility = 'hidden';
-    // var costumes = document.getElementById('costumes')
-    // costumes.style.visibility = 'hidden';
-    // var magic = document.getElementById('magic')
-    // magic.style.visibility = 'hidden';
-    // var inspo = document.getElementById('inspo')
-    // inspo.style.visibility = 'hidden';
+    var fifties = document.getElementById('ep-50s')
+    fifties.style.visibility = 'visible';
+    var sixties = document.getElementById('ep-60s')
+    sixties.style.visibility = 'hidden';
+    var seventies = document.getElementById('ep-70s')
+    seventies.style.visibility = 'hidden';
+    var eighties = document.getElementById('ep-80s')
+    eighties.style.visibility = 'hidden';
+    var nineties = document.getElementById('ep-90s')
+    nineties.style.visibility = 'hidden';
+    var noughties = document.getElementById('ep-00s')
+    noughties.style.visibility = 'hidden';
+    var present = document.getElementById('ep-10s')
+    present.style.visibility = 'hidden';
+    var present1 = document.getElementById('ep-20s')
+    present1.style.visibility = 'hidden';
+    var present2 = document.getElementById('ep-20s-1')
+    present2.style.visibility = 'hidden';
+}
+
+function buttonsixties() {
+    var fifties = document.getElementById('ep-50s')
+    fifties.style.visibility = 'hidden';
+    var sixties = document.getElementById('ep-60s')
+    sixties.style.visibility = 'visible';
+    var seventies = document.getElementById('ep-70s')
+    seventies.style.visibility = 'hidden';
+    var eighties = document.getElementById('ep-80s')
+    eighties.style.visibility = 'hidden';
+    var nineties = document.getElementById('ep-90s')
+    nineties.style.visibility = 'hidden';
+    var noughties = document.getElementById('ep-00s')
+    noughties.style.visibility = 'hidden';
+    var present = document.getElementById('ep-10s')
+    present.style.visibility = 'hidden';
+    var present1 = document.getElementById('ep-20s')
+    present1.style.visibility = 'hidden';
+    var present2 = document.getElementById('ep-20s-1')
+    present2.style.visibility = 'hidden';
+}
+
+function buttonseventies() {
+    var fifties = document.getElementById('ep-50s')
+    fifties.style.visibility = 'hidden';
+    var sixties = document.getElementById('ep-60s')
+    sixties.style.visibility = 'hidden';
+    var seventies = document.getElementById('ep-70s')
+    seventies.style.visibility = 'visible';
+    var eighties = document.getElementById('ep-80s')
+    eighties.style.visibility = 'hidden';
+    var nineties = document.getElementById('ep-90s')
+    nineties.style.visibility = 'hidden';
+    var naughties = document.getElementById('ep-00s')
+    naughties.style.visibility = 'hidden';
+    var noughties = document.getElementById('ep-00s')
+    noughties.style.visibility = 'hidden';
+    var present = document.getElementById('ep-10s')
+    present.style.visibility = 'hidden';
+    var present1 = document.getElementById('ep-20s')
+    present1.style.visibility = 'hidden';
+    var present2 = document.getElementById('ep-20s-1')
+    present2.style.visibility = 'hidden';
+}
+
+function buttoneighties() {
+    var fifties = document.getElementById('ep-50s')
+    fifties.style.visibility = 'hidden';
+    var sixties = document.getElementById('ep-60s')
+    sixties.style.visibility = 'hidden';
+    var seventies = document.getElementById('ep-70s')
+    seventies.style.visibility = 'hidden';
+    var eighties = document.getElementById('ep-80s')
+    eighties.style.visibility = 'visible';
+    var nineties = document.getElementById('ep-90s')
+    nineties.style.visibility = 'hidden';
+   var noughties = document.getElementById('ep-00s')
+    noughties.style.visibility = 'hidden';
+    var present = document.getElementById('ep-10s')
+    present.style.visibility = 'hidden';
+    var present1 = document.getElementById('ep-20s')
+    present1.style.visibility = 'hidden';
+    var present2 = document.getElementById('ep-20s-1')
+    present2.style.visibility = 'hidden';
+}
+
+function buttonnineties() {
+    var fifties = document.getElementById('ep-50s')
+    fifties.style.visibility = 'hidden';
+    var sixties = document.getElementById('ep-60s')
+    sixties.style.visibility = 'hidden';
+    var seventies = document.getElementById('ep-70s')
+    seventies.style.visibility = 'hidden';
+    var eighties = document.getElementById('ep-80s')
+    eighties.style.visibility = 'hidden';
+    var nineties = document.getElementById('ep-90s')
+    nineties.style.visibility = 'visible';
+    var noughties = document.getElementById('ep-00s')
+    noughties.style.visibility = 'hidden';
+    var present = document.getElementById('ep-10s')
+    present.style.visibility = 'hidden';
+    var present1 = document.getElementById('ep-20s')
+    present1.style.visibility = 'hidden';
+    var present2 = document.getElementById('ep-20s-1')
+    present2.style.visibility = 'hidden';
+}
+
+function buttonnoughties() {
+    var fifties = document.getElementById('ep-50s')
+    fifties.style.visibility = 'hidden';
+    var sixties = document.getElementById('ep-60s')
+    sixties.style.visibility = 'hidden';
+    var seventies = document.getElementById('ep-70s')
+    seventies.style.visibility = 'hidden';
+    var eighties = document.getElementById('ep-80s')
+    eighties.style.visibility = 'hidden';
+    var nineties = document.getElementById('ep-90s')
+    nineties.style.visibility = 'hidden';
+    var noughties = document.getElementById('ep-00s')
+    noughties.style.visibility = 'visible';
+    var present = document.getElementById('ep-10s')
+    present.style.visibility = 'hidden';
+    var present1 = document.getElementById('ep-20s')
+    present1.style.visibility = 'hidden';
+    var present2 = document.getElementById('ep-20s-1')
+    present2.style.visibility = 'hidden';
+}
+
+function buttontens() {
+    var fifties = document.getElementById('ep-50s')
+    fifties.style.visibility = 'hidden';
+    var sixties = document.getElementById('ep-60s')
+    sixties.style.visibility = 'hidden';
+    var seventies = document.getElementById('ep-70s')
+    seventies.style.visibility = 'hidden';
+    var eighties = document.getElementById('ep-80s')
+    eighties.style.visibility = 'hidden';
+    var nineties = document.getElementById('ep-90s')
+    nineties.style.visibility = 'hidden';
+    var noughties = document.getElementById('ep-00s')
+    noughties.style.visibility = 'hidden';
+    var present = document.getElementById('ep-10s')
+    present.style.visibility = 'visible';
+    var present1 = document.getElementById('ep-20s')
+    present1.style.visibility = 'hidden';
+    var present2 = document.getElementById('ep-20s-1')
+    present2.style.visibility = 'hidden';
+}
+
+function buttonpresent() {
+    var fifties = document.getElementById('ep-50s')
+    fifties.style.visibility = 'hidden';
+    var sixties = document.getElementById('ep-60s')
+    sixties.style.visibility = 'hidden';
+    var seventies = document.getElementById('ep-70s')
+    seventies.style.visibility = 'hidden';
+    var eighties = document.getElementById('ep-80s')
+    eighties.style.visibility = 'hidden';
+    var nineties = document.getElementById('ep-90s')
+    nineties.style.visibility = 'hidden';
+    var noughties = document.getElementById('ep-00s')
+    noughties.style.visibility = 'hidden';
+    var present = document.getElementById('ep-10s')
+    present.style.visibility = 'hidden';
+    var present1 = document.getElementById('ep-20s')
+    present1.style.visibility = 'visible';
+    var present2 = document.getElementById('ep-20s-1')
+    present2.style.visibility = 'visible';
 }

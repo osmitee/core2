@@ -266,54 +266,70 @@ h3 {
     position: relative;
     z-index: 2;
     left: 600px;
-    top: 505px;
+    top: 555px;
     width: 5%;
+        cursor: pointer;
 }
 
 .buttonsixties {
     position: relative;
     z-index: 2;
     left: 600px;
-    top: 508px;
+    top: 558px;
     width: 5%;
+        cursor: pointer;
 }
 
 .buttonseventies {
     position: relative;
     z-index: 2;
     left: 600px;
-    top: 511px;
+    top: 561px;
     width: 5%;
+        cursor: pointer;
 }
 
 .buttoneighties {
     position: relative;
     z-index: 2;
     left: 600px;
-    top: 513px;
+    top: 563px;
     width: 5%;
+        cursor: pointer;
 }
 
 .buttonnineties {
     position: relative;
     z-index: 2;
     left: 600px;
-    top: 516px;
+    top: 566px;
     width: 5%;
+        cursor: pointer;
 }
 
 .buttonnoughties {
     position: relative;
     z-index: 2;
     left: 600px;
-    top: 518px;
+    top: 568px;
     width: 5%;
+        cursor: pointer;
+}
+
+.buttontens {
+    position: relative;
+    z-index: 2;
+    left: 600px;
+    top: 570px;
+    width: 5%;
+        cursor: pointer;
 }
 
 .buttonpresent {
     position: relative;
     z-index: 2;
     left: 600px;
-    top: 520px;
+    top: 572px;
     width: 5%;
+    cursor: pointer;
 }
