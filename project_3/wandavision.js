@@ -51,7 +51,7 @@ fetch('https://api.airtable.com/v0/appGeugv5v8JANFJa/wandavision', {
             `;
             }
                ,data.records.sort((a, b) => a.fields.order - b.fields.order)
-            .slice(6, 7)
+            .slice(5, 6)
             .forEach(item => {
                 console.log(item);
                 wandavision.innerHTML += `
@@ -59,7 +59,7 @@ fetch('https://api.airtable.com/v0/appGeugv5v8JANFJa/wandavision', {
             `;
             }
                 ,data.records.sort((a, b) => a.fields.order - b.fields.order)
-            .slice(7, 8)
+            .slice(6, 7)
             .forEach(item => {
                 console.log(item);
                 wandavision.innerHTML += `
@@ -67,7 +67,7 @@ fetch('https://api.airtable.com/v0/appGeugv5v8JANFJa/wandavision', {
             `;
             }
                 ,data.records.sort((a, b) => a.fields.order - b.fields.order)
-            .slice(8, 9)
+            .slice(7, 8)
             .forEach(item => {
                 console.log(item);
                 wandavision.innerHTML += `
@@ -75,7 +75,7 @@ fetch('https://api.airtable.com/v0/appGeugv5v8JANFJa/wandavision', {
             `;
             }
                 ,data.records.sort((a, b) => a.fields.order - b.fields.order)
-            .slice(9, 10)
+            .slice(8, 9)
             .forEach(item => {
                 console.log(item);
                 wandavision.innerHTML += `
@@ -84,15 +84,6 @@ fetch('https://api.airtable.com/v0/appGeugv5v8JANFJa/wandavision', {
             }
         )))))))));
     });
-
-// function episodes() {
-//     var episodes = document.getElementById('episodes');
-//     episodes.style.left = '208px';
-//     episodes.style.top = '197px';
-//     episodes.style.filter = 'brightness(130%)';
-//     var fifties = document.getElementById('ep-50s');
-//     fifties.style.visibility = 'visible';
-// }
 
 // onclick
 
