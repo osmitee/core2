@@ -5,3 +5,12 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 4%;
 }
+
+.episode-screen {
+    width: 36%;
+    position: absolute;
+    left: 570px;
+    z-index: 1;
+    top: 132px;
+    opacity: 0%;
+}

@@ -10,10 +10,18 @@ fetch('https://api.airtable.com/v0/appGeugv5v8JANFJa/wandavision', {
         console.log(data);
         const wandavision = document.querySelector('.wandavision');
         
-        data.records.forEach(item => {
-            console.log(item);
-            wandavision.innerHTML += `
-            <h3>${item.fields.title}</h3>
+        data.records.sort((a, b) => a.fields.order - b.fields.order)
+            .slice(0, 1)
+            .forEach(item => {
+                console.log(item);
+                wandavision.innerHTML += `
+        <video loop muted autoplay class="episode-screen" id="episodes" src="${item.fields.episode_videos[0].url}"></video>
             `;
-});
-});
+            }
+            );
+    });
+
+function episodes() {
+    let episodes = document.getElementById('episodes')
+    episodes.style.opacity = "1";
+    }
