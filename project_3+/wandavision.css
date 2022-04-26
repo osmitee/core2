@@ -33,7 +33,7 @@ body {
     width: 88%;
     left: 8%;
     top: 90px;
-    z-index: 1;
+    z-index: 9;
 }
 
 .screen {
@@ -47,6 +47,7 @@ body {
 .tapes {
     position: absolute;
     top: -125px;
+    z-index: 10;
 }
 
 .episodes {
@@ -199,7 +200,7 @@ cursor: pointer;
 
 .inspiration:hover {
     transition: 1s;
-            cursor: pointer;
+    cursor: pointer;
 }
 
 .shelf-exterior {
@@ -208,7 +209,7 @@ cursor: pointer;
     height: 705px;
     left: 32px;
     top: 172px;
-    z-index: 3;
+    z-index: 11;
 }
 
 .shelf-exterior {
@@ -217,7 +218,7 @@ cursor: pointer;
     height: 705px;
     left: 32px;
     top: 172px;
-    z-index: 3;
+    z-index: 12;
 }
 
 .shelf-interior {
@@ -253,32 +254,87 @@ h3 {
 
 }
 
-#ep-50s {
+#ep-50s,
+#ep-60s,
+#ep-70s,
+#ep-80s,
+#ep-90s,
+#ep-00s,
+#ep-10s,
+#ep-20s {
     width: 36%;
-    position: absolute;
-    left: 570px;
-    z-index: 1;
+    z-index: 0;
+    position: relative;
     transform: rotate3d(0, 4, 0, 30deg);
-    top: 132px;
     opacity: 100%;
+}
+
+#ep-50s {
+    top: -1499px;
+    left: 567px;
+    z-index:1;
+}
+
+#ep-60s {
+    top: -1110px;
+    left: 50px;
+    z-index: 2;
+}
+
+#ep-70s {
+    top: -1110px;
+    left: 566.5px;
+    z-index: 3;
+}
+
+#ep-80s {
+    top: -721px;
+    left: 567px;
+    z-index: 4;
+}
+
+#ep-90s {
+    top: -267px;
+    left: 50.5px;
+    z-index: 5;
+}
+
+#ep-00s {
+    top:-267px;
+    left: 567px;
+    z-index: 6;
+}
+
+#ep-10s {
+    top: 121px;
+    left: 50.5px;
+    z-index: 7;
+}
+
+#ep-20s {
+    top: 121px;
+    left: 567px;
+    z-index: 8;
 }
 
 .episode-screen {
     visibility: hidden;
 }
 
+.ep-visibility {
+    visibility: hidden;
+}
+
 .buttonfifties {
     position: relative;
-    z-index: 2;
     left: 600px;
     top: 555px;
     width: 5%;
-        cursor: pointer;
+    cursor: pointer;
 }
 
 .buttonsixties {
     position: relative;
-    z-index: 2;
     left: 600px;
     top: 558px;
     width: 5%;
@@ -287,7 +343,6 @@ h3 {
 
 .buttonseventies {
     position: relative;
-    z-index: 2;
     left: 600px;
     top: 561px;
     width: 5%;
@@ -296,7 +351,6 @@ h3 {
 
 .buttoneighties {
     position: relative;
-    z-index: 2;
     left: 600px;
     top: 563px;
     width: 5%;
@@ -305,7 +359,6 @@ h3 {
 
 .buttonnineties {
     position: relative;
-    z-index: 2;
     left: 600px;
     top: 566px;
     width: 5%;
@@ -314,7 +367,6 @@ h3 {
 
 .buttonnoughties {
     position: relative;
-    z-index: 2;
     left: 600px;
     top: 568px;
     width: 5%;
@@ -323,7 +375,6 @@ h3 {
 
 .buttontens {
     position: relative;
-    z-index: 2;
     left: 600px;
     top: 570px;
     width: 5%;
@@ -332,9 +383,14 @@ h3 {
 
 .buttonpresent {
     position: relative;
-    z-index: 2;
     left: 600px;
     top: 572px;
     width: 5%;
     cursor: pointer;
+}
+
+.buttons {
+    position: absolute;
+    top: 5px;
+    z-index: 11;
 }
