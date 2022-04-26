@@ -112,6 +112,7 @@ function buttonseventies() {
     [ 'ep-50s', 'ep-60s', 'ep-80s', 'ep-90s', 'ep-00s', 'ep-10s', 'ep-20s'].forEach(function( ids ) {
     document.getElementById( ids ).classList.toggle("ep-visibility");
 
+
 });
     
 }
@@ -119,6 +120,11 @@ function buttonseventies() {
 function buttoneighties() {
     var episodes = document.getElementById('ep-80s');
     episodes.classList.toggle("episode-screen");
+    [ 'ep-50s', 'ep-60s', 'ep-70s', 'ep-90s', 'ep-00s', 'ep-10s', 'ep-20s'].forEach(function( ids ) {
+    document.getElementById( ids ).classList.toggle("ep-visibility");
+
+
+});
 }
 
 function buttonnineties() {
@@ -129,8 +135,6 @@ function buttonnineties() {
 function buttonnoughties() {
     var episodes = document.getElementById('ep-00s');
     episodes.classList.toggle("episode-screen");
-    const vis = document.querySelectorAll("#ep-10s, #ep-60s, #ep-70s, #ep-80s");
-    vis.style.visibility = "hidden";
 }
 
 function buttontens() {
