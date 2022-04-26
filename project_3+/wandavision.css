@@ -1,0 +1,340 @@
+@font-face {
+    font-family: 'VCR OSD Mono';
+    font-style: normal;
+    font-weight: normal;
+    src: local('VCR OSD Mono'), url('VCR_OSD_MONO_1.001[1].woff') format('woff');
+}
+
+body {
+    background-color: #13100b;
+}
+
+/* .tv {
+    position: absolute;
+    width: 1412px;
+    height: 844px;
+    right: 0px;
+    top: 20px;
+} */
+
+.set-container {
+    position: absolute;
+    top: -17%;
+    left: 0%;
+    width: 100%;
+    height: 130%;
+    background-image: url(illustrations/background.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.tv {
+    position: relative;
+    width: 88%;
+    left: 8%;
+    top: 90px;
+    z-index: 1;
+}
+
+.screen {
+    position: absolute;
+    width: 88%;
+    left: 8%;
+    bottom: 65px;
+    z-index: 0;
+}
+
+.tapes {
+    position: absolute;
+    top: -125px;
+}
+
+.episodes {
+    position: absolute;
+    width: 320px;
+    height: 90px;
+    left: 172px;
+    top: 202px;
+    z-index: 1;
+    transition: 1s;
+}
+
+.episodes:hover {
+    left: 208px;
+    top: 200px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.characters {
+    position: absolute;
+    width: 320px;
+    height: 94px;
+    left: 173px;
+    top: 260px;
+    z-index: 1;
+    transition: 1s;
+}
+
+.characters:hover {
+    transition: 1s;
+    cursor: pointer;
+}
+
+.music {
+position: absolute;
+width: 324px;
+height: 94px;
+left: 170px;
+top: 322px;
+    z-index: 1;
+    transition: 1s;
+}
+
+.music:hover {
+    transition: 1s;
+    cursor: pointer;
+}
+
+.locations {
+    position: absolute;
+    width: 323px;
+    height: 95px;
+    left: 171px;
+    top: 378px;
+        z-index: 1;
+        transition: 1s;
+}
+
+.locations:hover {
+transition: 1s;
+cursor: pointer;
+}
+
+.costumes {
+    position: absolute;
+    width: 320px;
+    height: 94px;
+    left: 173px;
+    top: 438px;
+    z-index: 1;
+    transition: 1s;
+}
+
+.costumes:hover {
+    transition: 1s;
+    cursor: pointer;
+}
+
+.iconic-moments {
+    position: absolute;
+    width: 321px;
+    height: 94px;
+    left: 172px;
+    top: 499px;
+    z-index: 1;
+    transition: 1s;
+}
+
+.iconic-moments:hover {
+    transition: 1s;
+    cursor: pointer;
+}
+
+.magic {
+    position: absolute;
+    width: 323px;
+    height: 95px;
+    left: 172px;
+    top: 555px;
+    z-index: 1;
+    transition: 1s;
+    
+}
+
+.magic:hover {
+    transition: 1s;
+        cursor: pointer;
+}
+
+.trailers-posters {
+    position: absolute;
+    width: 321px;
+    height: 94px;
+    left: 174px;
+    top: 616px;
+    z-index: 2;
+    transition: 1s;
+}
+
+.trailers-posters:hover {
+        transition: 1s;
+        cursor: pointer;
+}
+
+.easter-eggs {
+    position: absolute;
+    width: 321px;
+    height: 94px;
+    left: 176px;
+    top: 680px;
+    z-index: 1;
+    transition: 1s;
+}
+
+.easter-eggs:hover {
+    transition: 1s;
+            cursor: pointer;
+}
+
+.inspiration {
+    position: absolute;
+    width: 322px;
+    height: 94px;
+    left: 174px;
+    top: 742px;
+    z-index: 1;
+    transition: 1s;
+}
+
+.inspiration:hover {
+    transition: 1s;
+            cursor: pointer;
+}
+
+.shelf-exterior {
+    position: absolute;
+    width: 171px;
+    height: 705px;
+    left: 32px;
+    top: 172px;
+    z-index: 3;
+}
+
+.shelf-exterior {
+    position: relative;
+    width: 171px;
+    height: 705px;
+    left: 32px;
+    top: 172px;
+    z-index: 3;
+}
+
+.shelf-interior {
+    position: absolute;
+    width: 1512px;
+    height: 945px;
+    left: 0px;
+    top: 0px;
+}
+
+.shelf-bg {
+    position: absolute;
+    width: 1512px;
+    height: 945px;
+    left: 0px;
+    top: 0px;
+}
+
+.shelf {
+    position: absolute;
+    top: -130px;
+}
+
+h3 {
+    font-family: VCR OSD Mono;
+    color: white;
+    position:relative;
+    top: 29.5rem;
+    left: 37rem;
+    z-index: 2;
+    font-size: 15px;
+    transform: rotate3d(0, 2, 0.04, 30deg);
+
+}
+
+#ep-50s {
+    width: 36%;
+    position: absolute;
+    left: 570px;
+    z-index: 1;
+    transform: rotate3d(0, 4, 0, 30deg);
+    top: 132px;
+    opacity: 100%;
+}
+
+.episode-screen {
+    visibility: hidden;
+}
+
+.buttonfifties {
+    position: relative;
+    z-index: 2;
+    left: 600px;
+    top: 555px;
+    width: 5%;
+        cursor: pointer;
+}
+
+.buttonsixties {
+    position: relative;
+    z-index: 2;
+    left: 600px;
+    top: 558px;
+    width: 5%;
+        cursor: pointer;
+}
+
+.buttonseventies {
+    position: relative;
+    z-index: 2;
+    left: 600px;
+    top: 561px;
+    width: 5%;
+        cursor: pointer;
+}
+
+.buttoneighties {
+    position: relative;
+    z-index: 2;
+    left: 600px;
+    top: 563px;
+    width: 5%;
+        cursor: pointer;
+}
+
+.buttonnineties {
+    position: relative;
+    z-index: 2;
+    left: 600px;
+    top: 566px;
+    width: 5%;
+        cursor: pointer;
+}
+
+.buttonnoughties {
+    position: relative;
+    z-index: 2;
+    left: 600px;
+    top: 568px;
+    width: 5%;
+        cursor: pointer;
+}
+
+.buttontens {
+    position: relative;
+    z-index: 2;
+    left: 600px;
+    top: 570px;
+    width: 5%;
+        cursor: pointer;
+}
+
+.buttonpresent {
+    position: relative;
+    z-index: 2;
+    left: 600px;
+    top: 572px;
+    width: 5%;
+    cursor: pointer;
+}
