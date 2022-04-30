@@ -1,27 +1,33 @@
 console.log("hello")
 
+let filterValue = '1950s';
+
 fetch('https://api.airtable.com/v0/appGeugv5v8JANFJa/wandavision', {
     headers: {
         Authorization: 'Bearer keyOtukKKZyVwSugv',
     }
 })
+    
     .then(response => response.json())
     .then(data => {
         console.log(data);
         const wandavision = document.querySelector('.wandavision');
+        function generateContent() {
+            wandavision.innerHTML = ``;
+        }
         
         data.records.sort((a, b) => a.fields.order - b.fields.order)
-            .slice(0, 1)
+            .slice(0, 5)
+            .filter.addEventListener('change', () => {
+                filterValue = event.target.value
+                generateContent()
+            })
             .forEach(item => {
-                console.log(item);
-                wandavision.innerHTML += `
-        <video loop muted autoplay class="episode-screen" id="episodes" src="${item.fields.episode_videos[0].url}"></video>
-            `;
-            }
-            );
-    });
-
-function episodes() {
-    let episodes = document.getElementById('episodes')
-    episodes.style.opacity = "1";
-    }
+                    // console.log(item);
+                    wandavision.innerHTML += `
+    <div class="episodes">
+    <h3>${item.fields.episodes}</h3>
+    </div>
+    `
+                });
+            });
