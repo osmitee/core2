@@ -66,10 +66,10 @@ iframe {
 
 .links {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    width: 500px;
+    width: 700px;
     grid-gap:20px;
     position: absolute;
-    left: 29%;
+    left: 22.8%;
 }
