@@ -1,0 +1,11 @@
+.myCanvas {
+    border: 1px solid black;
+    width: 27%;
+    height: 70%;
+    background-color: beige;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    transform: perspective(80px) rotateX(1deg);
+}
+
