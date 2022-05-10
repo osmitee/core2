@@ -1,11 +1,98 @@
-.myCanvas {
-    border: 1px solid black;
-    width: 27%;
-    height: 70%;
-    background-color: beige;
+body {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(#FFB8C1, #EAD8C7);
     position: absolute;
-    left: 35%;
-    top: 10%;
-    transform: perspective(80px) rotateX(1deg);
+    background-size: 100% 110%;
 }
 
+.composition {
+    background-image: url(illustrations/background.png);
+    background-size: cover;
+    position: absolute;
+    top: 0%;
+    left: -0.6%;
+    width: 100.2%;
+    height: 100%;
+}
+
+.canvas {
+    position: absolute;
+    width: 27%;
+    left: 24%;
+    top: 13%;
+    -webkit-user-select: none;
+}
+
+canvas:hover {
+    cursor: url(brush.png);
+}
+
+.myCanvas {
+    position: relative;
+    left: -95%;
+    top: -15%;
+    width: 300%;
+    height: 140%;
+        transform: perspective(2000px) rotateY(35deg) rotateZ(10.5deg);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    color: white;
+}
+
+h1 {
+    background: #7F7FD5;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.painting {
+    height: 100%;
+    display: flex;
+    width: 21%;
+    height: 43.3%;
+    background-color: #fff;
+    position: absolute;
+    left: 29.3%;
+    top: 30.3%;
+    transform: perspective(2000px) rotateY(35deg) rotateZ(-10.5deg);
+    z-index: 1;
+}
+
+#stationery {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    width: 100%; 
+    position: relative;
+    height: 100%;
+}
+
+#stationery * {
+    margin-bottom: 6px;
+}
+
+#stationery input {
+    position: relative;
+    top: 90%;
+    width: 100%;
+    z-index: 1;
+}
+
+#stationery button {
+    background-color: #1565c0;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 2px;
+    z-index: 10;
+    position: relative;
+    left: 220px;
+    top: 250px;
+}
