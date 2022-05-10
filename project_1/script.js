@@ -15,8 +15,8 @@ function clickLever() {
     };
    
 
-{/* <script>
+<script>
  $( ".et-pb-icon" ).click(function() {
  $( this ).toggleClass( "active" );
  });
-</script> */}
+</script>
