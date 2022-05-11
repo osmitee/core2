@@ -2,7 +2,6 @@ const canvas = document.getElementById('myCanvas');
 const stationery = document.getElementById('stationery');
 const ctx = canvas.getContext('2d');
 
-
 const canvasOffsetX = canvas.offsetLeft;
 const canvasOffsetY = canvas.offsetTop;
 
@@ -58,3 +57,11 @@ canvas.addEventListener('mouseup', e => {
 canvas.addEventListener('mousemove', draw);
 
 document.addEventListener('contextmenu', event => event.preventDefault());
+
+function getMousePos(canvas, evt) {
+    var rect = canvas.getBoundingClientRect();
+    return {
+        x: (evt.clientX - rect.left) / (rect.right - rect.left) * canvas.width,
+        y: (evt.clientY - rect.top) / (rect.bottom - rect.top) * canvas.height
+    };
+}

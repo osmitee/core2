@@ -30,8 +30,8 @@ body {
     top: -10%;
     width: 390%;
     height: 140%;
-    transform: perspective(2000px) rotateY(35deg) rotateZ(10.5deg);
-        cursor: url("illustrations/brush.png"), auto;
+    /* transform: perspective(2000px) rotateY(35deg) rotateZ(10.5deg); */
+    cursor: url("illustrations/brush.png"), auto;
 }
 
 body {
@@ -58,7 +58,7 @@ h1 {
     position: absolute;
     left: 29.3%;
     top: 30.3%;
-    transform: perspective(2000px) rotateY(35deg) rotateZ(-10.5deg);
+    /* transform: perspective(2000px) rotateY(35deg) rotateZ(-10.5deg); */
     z-index: 1;
 }
 
@@ -77,12 +77,13 @@ h1 {
 
 #stationery input {
     position: relative;
-    top: 82.1%;
-    left: -70%;
-    width: 125%;
+    top: 82%;
+    left: -67%;
+    width: 117%;
     height: 18%;
     z-index: 1;
     transform: rotateY(150deg) rotateZ(-10.5deg);
+    cursor: url("illustrations/brush.png"), auto;
 }
 
 input[type="color"] {
