@@ -77,8 +77,8 @@ h1 {
 
 #stationery input {
     position: relative;
-    top: 79.5%;
-    left: -68%;
+    top: 82.1%;
+    left: -70%;
     width: 125%;
     height: 18%;
     z-index: 1;
@@ -106,15 +106,15 @@ input[type="color"]::-webkit-color-swatch {
     padding: 2px;
     z-index: 1;
     position: relative;
-    left: 210px;
-    top: 250px;
+    left: 228px;
+    top: 225px;
 }
 
 .paint {
     position: relative;
     width: 8%;
     left: 28.5%;
-    top: 64%;
+    top: 65%;
     z-index: 2;
     pointer-events: none;
 }
