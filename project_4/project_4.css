@@ -78,8 +78,8 @@ h1 {
 #stationery input {
     position: relative;
     top: 82%;
-    left: -67%;
-    width: 117%;
+    left: -69%;
+    width: 123%;
     height: 18%;
     z-index: 1;
     transform: rotateY(150deg) rotateZ(-10.5deg);
@@ -109,6 +109,7 @@ input[type="color"]::-webkit-color-swatch {
     position: relative;
     left: 228px;
     top: 225px;
+        -webkit-user-select: none;
 }
 
 .paint {
