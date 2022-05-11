@@ -1,6 +1,7 @@
 const canvas = document.getElementById('myCanvas');
-const toolbar = document.getElementById('stationery');
+const stationery = document.getElementById('stationery');
 const ctx = canvas.getContext('2d');
+
 
 const canvasOffsetX = canvas.offsetLeft;
 const canvasOffsetY = canvas.offsetTop;
@@ -13,13 +14,13 @@ let lineWidth = 5;
 let startX;
 let startY;
 
-toolbar.addEventListener('click', e => {
+stationery.addEventListener('click', e => {
     if (e.target.id === 'clear') {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
     }
 });
 
-toolbar.addEventListener('change', e => {
+stationery.addEventListener('change', e => {
     if(e.target.id === 'stroke') {
         ctx.strokeStyle = e.target.value;
     }
