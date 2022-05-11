@@ -8,6 +8,7 @@ body {
     font-family: antique-olive, sans-serif;
     font-style: normal;
     font-weight: 300;
+    background-image: url('background.png');
 }
 
 .homepage-container {
@@ -40,10 +41,10 @@ body {
     }
 }
 
-.background {
+/* .background {
     position: absolute;
     width: 100vw;
-}
+} */
 
 .container {
     margin-top: 100vh;

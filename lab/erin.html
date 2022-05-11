@@ -14,33 +14,34 @@
 <body>
 
 
-    <div class="homepage-container">
+    <!-- <div class="homepage-container">
         <img src="archive-homepage_4.png" class="homepage">
         <img src="welcome.png" class="welcome">
-    </div>
+    </div> -->
 
-    <div class="content-container">
-        <img src="background.png" class="background">
-        <div class="container">
+    <main class="content-container">
+        <!-- <div class="container">
             <div class="elements">
-                <div class="dropdown-container">
-                    <label for="my-select">Filter Allergen:</label>
-                    <select name="my-select" id="select" onchange="handleDropdown()">
+                <div class="dropdown-container"> -->
+                    <label for="allergens">Filter Allergen:</label>
+                    <select id="allergens">
                         <option selected value="all">All</option>
-                        <option value="Gluten">Gluten</option>
-                        <option value="Soy">Soy</option>
-                        <option value="Nuts">Nuts</option>
-                        <option value="Dairy">Dairy</option>
-                        <option value="Corn">Corn</option>
-                        <option value="Egg">Egg</option>
+                        <option value="gluten">Gluten</option>
+                        <option value="soy">Soy</option>
+                        <option value="nuts">Nuts</option>
+                        <option value="dairy">Dairy</option>
+                        <option value="corn">Corn</option>
+                        <option value="egg">Egg</option>
                     </select>
-                </div>
-            </div>
+                <!-- </div> -->
+            <!-- </div> -->
             <div class="food"></div>
         </div>
-    </div>
+    </main>
 
+    <script src="edata.js"></script>
     <script src="erin.js"></script>
+
 </body>
 
 </html>
