@@ -30,7 +30,7 @@ body {
     top: -10%;
     width: 390%;
     height: 140%;
-    /* transform: perspective(2000px) rotateY(35deg) rotateZ(10.5deg); */
+    transform: perspective(2000px) rotateY(35deg) rotateZ(10.5deg);
     cursor: url("illustrations/brush.png"), auto;
 }
 
@@ -58,7 +58,7 @@ h1 {
     position: absolute;
     left: 29.3%;
     top: 30.3%;
-    /* transform: perspective(2000px) rotateY(35deg) rotateZ(-10.5deg); */
+    transform: perspective(2000px) rotateY(35deg) rotateZ(-10.5deg);
     z-index: 1;
 }
 
