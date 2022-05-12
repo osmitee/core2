@@ -111,7 +111,38 @@ input[type="color"]::-webkit-color-swatch {
     left: 47%;
     top: 42%;
     user-select: none;
+}
 
+.musicgif {
+    position: absolute;
+    width: 33%;
+    left: 48%;
+    top: 32%;
+    z-index: 3;
+}
+
+.musicopen {
+    position: absolute;
+    width: 33%;
+    left: 48%;
+    top: 32%;
+    z-index: 5;
+}
+
+.candle {
+    position: absolute;
+    width: 10%;
+    left: 10%;
+    top: 74%;
+    z-index: 5;
+}
+
+.teacup {
+    position: absolute;
+    width: 10%;
+    left: 78%;
+    top: 76%;
+    z-index: 6;
 }
 
 audio {
