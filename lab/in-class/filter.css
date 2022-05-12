@@ -1,0 +1,42 @@
+body {
+    background-color: darkred;
+    font-family: armstrong;
+    color: white;
+    height: 900vh;
+}
+
+.wvpics {
+    width: 20%;
+    border: red solid 2px;
+    position: relative;
+    left: 39%;
+    top: 80px;
+    margin: 1%;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 2%;
+    font-size: 50px;
+}
+
+h3 {
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    z-index: 1;
+    top: 50px;
+}
+
+select {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+
+label {
+    position: absolute;
+    left: 44%;
+ font-size: 25px;
+top: 19%;
+}

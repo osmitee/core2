@@ -89,8 +89,9 @@ input[type="color"]::-webkit-color-swatch {
     padding: 2px;
     z-index: 2;
     position: relative;
-    left: 228px;
-    top: 225px;
+    left: 615px;
+    top: 302px;
+    transform: perspective(2000px) rotateY(30deg) rotateZ(-13deg);
     -webkit-user-select: none;
     width: 100px;
 }
@@ -101,5 +102,6 @@ input[type="color"]::-webkit-color-swatch {
     left: 28.5%;
     top: 65%;
     z-index: 2;
+    
     pointer-events: none;
 }
