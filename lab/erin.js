@@ -63,12 +63,12 @@ fetch('https://api.airtable.com/v0/appiO928XGEGes4rb/foods', {
             foodAirtable.innerHTML = '';
 
             data.records
+                // .filter(food => {
+                //     return filterValue === 'gluten' ? food : food.fields.allergens === filterValue;                    // return foods.filter === filterValue;
+                // });
                 .filter(food => {
-                    return filterValue === 'all' ? food : food.fields.allergens === filterValue;
+                    return filterValue === food.fields.allergensalt;
                     // return foods.filter === filterValue;
-                })
-                .sort((a, b) => {
-                    return a.fields.food - b.fields.food;
                 })
                 .forEach(food => {
                     console.log(food);
@@ -85,10 +85,11 @@ fetch('https://api.airtable.com/v0/appiO928XGEGes4rb/foods', {
         }
         generateContent();
 
-    filter.addEventListener('change', () => {
-    filterValue = event.target.value; 
-    generateContent();
-    console.log('changed');
-    console.log(event.target.value);
+
+        filter.addEventListener('change', () => {
+            filterValue = event.target.value;
+            generateContent();
+            console.log('changed');
+            console.log(event.target.value);
+        });
     });
-});
