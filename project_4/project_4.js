@@ -104,24 +104,24 @@ canvas.addEventListener("mouseout", () => (isDrawing = false));
 
 document.addEventListener('contextmenu', event => event.preventDefault());
 
-window.addEventListener('keydown', function (event) {
-    var k = event.keyCode; {
-        if (k.keycode == 77) {
-            console.log('pressed');
-            document.getElementById('audio').play();
+var isPlaying = false;
+
+window.addEventListener('keydown', function (e) {
+    const music = document.getElementById('audio');
+    if (e.keyCode == 77) {
+        if (isPlaying) {
+            music.pause();
+            console.log('pause');
+        } else {
+            music.play();
+            console.log('play');
         }
-    };;
+        isPlaying = !isPlaying; // if true equal false, if false equal true
+    }
+});
 
-    // $(document).keydown(function (e) {
-    //     if (e.keyCode == 77) {
-    //         var audio = document.getElementById('audio');
-    //         audio.play();
-    //         return false;
-    //     }
-    // });
-
-    // function music() {
-    //     console.log('clicked');
-    //     let audio = document.getElementById('audio');
-    //     audio.play();
-// }
+function musicbox() {
+    const sparkle = document.getElementById('sparkle');
+        sparkle.play();
+        console.log('play');
+};

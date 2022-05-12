@@ -110,8 +110,8 @@ input[type="color"]::-webkit-color-swatch {
     width: 20%;
     left: 47%;
     top: 42%;
-    pointer-events: none;
     user-select: none;
+
 }
 
 audio {
@@ -119,4 +119,9 @@ audio {
     position: relative;
     left: 100px;
     display: none;
+}
+
+.musicbox {
+    cursor:pointer;
+    z-index: 3;
 }
