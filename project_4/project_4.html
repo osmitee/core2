@@ -8,18 +8,23 @@
 </head>
 <body>
     <section class="composition">
+        <h3 >test</h3>
         <img class="paint" src="illustrations/paintcan.png"/>
         <img class="canvas" src="illustrations/canvas.svg"/>
+        <img src="illustrations/musicbox.svg" class="musicbox" onclick="music()">
+        <audio id="audio" controls>
+            <source src="music/musicbox.mp3" type="audio/mpeg" id="audio"> Your browser does
+            not support the audio element.
+        </audio>
         <section class="painting">
             <div id="stationery">
                 <input id="stroke" name="stroke" value="#73C3EF" type="color">
                 <button id="clear">Clear</button>
             </div>
         <canvas id="draw" width="290" height="270"></canvas>
-            <div class="painting-canvas" class="painting-canvas">
-                    </div>
-        </section>
+            <div class="painting-canvas" class="painting-canvas"></div>
         <script src="project_4.js"></script>
+            </section>
         </body>
         
 </html>

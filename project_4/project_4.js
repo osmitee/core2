@@ -102,4 +102,26 @@ canvas.addEventListener("mousemove", draw);
 canvas.addEventListener("mouseup", () => (isDrawing = false));
 canvas.addEventListener("mouseout", () => (isDrawing = false));
 
-// document.addEventListener('contextmenu', event => event.preventDefault());
+document.addEventListener('contextmenu', event => event.preventDefault());
+
+window.addEventListener('keydown', function (event) {
+    var k = event.keyCode; {
+        if (k.keycode == 77) {
+            console.log('pressed');
+            document.getElementById('audio').play();
+        }
+    };;
+
+    // $(document).keydown(function (e) {
+    //     if (e.keyCode == 77) {
+    //         var audio = document.getElementById('audio');
+    //         audio.play();
+    //         return false;
+    //     }
+    // });
+
+    // function music() {
+    //     console.log('clicked');
+    //     let audio = document.getElementById('audio');
+    //     audio.play();
+// }
