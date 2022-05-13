@@ -108,6 +108,9 @@ var isPlaying = false;
 
 window.addEventListener('keydown', function (e) {
     const music = document.getElementById('audio');
+    const box = document.getElementById('box');
+    const open = document.getElementById('open');
+        const closed = document.getElementById('closed');
     if (e.keyCode == 77) {
         if (isPlaying) {
             music.pause();
@@ -117,11 +120,19 @@ window.addEventListener('keydown', function (e) {
             console.log('play');
         }
         isPlaying = !isPlaying; // if true equal false, if false equal true
+        box.style.opacity = '1';
+        open.style.opacity = "0";
+        closed.style.opacity = "0";
     }
 });
 
 function musicbox() {
     const sparkle = document.getElementById('sparkle');
+    const closed = document.getElementById('closed');
+    const open = document.getElementById('open');
         sparkle.play();
-        console.log('play');
+    console.log('play');
+    closed.style.opacity = "0";
+    open.style.opacity = "1";
 };
+

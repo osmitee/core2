@@ -111,22 +111,37 @@ input[type="color"]::-webkit-color-swatch {
     left: 47%;
     top: 42%;
     user-select: none;
+    opacity: 1;
+    
 }
 
 .musicgif {
     position: absolute;
-    width: 33%;
-    left: 48%;
-    top: 32%;
+    width: 32%;
+    left: 49%;
+    top: 34%;
     z-index: 3;
+    opacity: 0;
+    pointer-events: none;
 }
 
 .musicopen {
     position: absolute;
-    width: 33%;
-    left: 48%;
-    top: 32%;
+    width: 32%;
+    left: 49%;
+    top: 34%;
     z-index: 5;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.closedmusicbox {
+    position: absolute;
+    width: 32%;
+    left: 49%;
+    top: 34%;
+    z-index: 5;
+    pointer-events: none;
 }
 
 .candle {
@@ -155,4 +170,5 @@ audio {
 .musicbox {
     cursor:pointer;
     z-index: 3;
+    opacity: 0;
 }
