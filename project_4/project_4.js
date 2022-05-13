@@ -120,9 +120,16 @@ window.addEventListener('keydown', function (e) {
             console.log('play');
         }
         isPlaying = !isPlaying; // if true equal false, if false equal true
-        box.style.opacity = '1';
-        open.style.opacity = "0";
         closed.style.opacity = "0";
+        if (isPlaying) {
+            box.style.opacity = '1';
+            open.style.opacity = "0";
+        }
+        else {
+            box.style.opacity = '0';
+            open.style.opacity = "1"; 
+        }
+
     }
 });
 
