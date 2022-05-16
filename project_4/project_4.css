@@ -1,12 +1,13 @@
+/* @media only screen and (min-width : 1224px) { */
+
 body {
-    height: 100%;
-    width: 100%;
     background-image: linear-gradient(#FFB8C1, #EAD8C7);
-    position: absolute;
-    background-size: 100% 110%;
+    background-size: cover;
+   
 }
 
 .composition {
+      
     background-image: url(illustrations/background.png);
     background-size: cover;
     position: absolute;
@@ -14,6 +15,8 @@ body {
     left: -0.6%;
     width: 100.2%;
     height: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .canvas {
@@ -58,12 +61,12 @@ h1 {
     margin-bottom: 6px;
 }
 
-#stationery input {
+.paint-bucket input {
     position: relative;
-    top: 18.2%;
-    left:29.5%;
-    width: 4.9%;
-    height: 8%;
+    top: 56%;
+    left:21.7%;
+    width: 4.7%;
+    height: 45%;
     z-index: 1;
     cursor: url("illustrations/brush.png"), auto;
 }
@@ -100,7 +103,7 @@ input[type="color"]::-webkit-color-swatch {
     position: relative;
     width: 8%;
     left: 28.5%;
-    top: 30%;
+    top: 75%;
     z-index: 2;
     pointer-events: none;
 }
@@ -172,3 +175,4 @@ audio {
     z-index: 3;
     opacity: 0;
 }
+/* } */
