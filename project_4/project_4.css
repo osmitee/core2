@@ -3,7 +3,6 @@
 body {
     background-image: linear-gradient(#FFB8C1, #EAD8C7);
     background-size: cover;
-   
 }
 
 .composition {
@@ -14,7 +13,7 @@ body {
     top: 0%;
     left: -0.6%;
     width: 100.2%;
-    height: 100%;
+    height: 100vh;
     margin-left: auto;
     margin-right: auto;
 }
@@ -176,3 +175,7 @@ audio {
     opacity: 0;
 }
 /* } */
+
+.txt {
+    width: 100vh;
+}
