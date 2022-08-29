@@ -185,7 +185,7 @@ audio {
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
-        visibility: hidden;
+        /* visibility: hidden; */
 }
 
 .closebtn {
@@ -197,7 +197,12 @@ audio {
         margin-right: auto;
         margin-top: -93vh;
         cursor: pointer;
-            visibility: hidden;
+        opacity: 50%;
+}
+
+.closebtn:hover {
+    opacity: 100%;
+        cursor: pointer;
 }
 
 .overlay {
@@ -210,13 +215,19 @@ audio {
     margin-left: -10;
     margin-top: -70px;
     opacity: 80%;
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
 .helpbtn {
     position: fixed;
     width: 10vh;
     padding: 1%;
+    cursor: pointer;
+    opacity: 50%;
+}
+
+.helpbtn:hover {
+    opacity: 100%;
     cursor: pointer;
 }
 
