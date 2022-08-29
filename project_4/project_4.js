@@ -143,3 +143,20 @@ function musicbox() {
     open.style.opacity = "1";
 };
 
+function helpbtn() {
+    const closebtn2 = document.getElementById('closebtn');
+    const txt2 = document.getElementById('txt');
+    const overlay2 = document.getElementById('overlay');
+    closebtn2.style.visibility = "visible";
+    txt2.style.visibility = "visible";
+    overlay2.style.visibility = "visible";
+}
+
+function closebtn() {
+    const closebtn = document.getElementById('closebtn');
+    const txt = document.getElementById('txt');
+    const overlay = document.getElementById('overlay');
+    closebtn.style.visibility = "hidden";
+    txt.style.visibility = "hidden";
+    overlay.style.visibility = "hidden";
+}

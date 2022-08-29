@@ -177,5 +177,45 @@ audio {
 /* } */
 
 .txt {
-    width: 100vh;
+    position: relative;
+    width: 125vh;
+    z-index: 8;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+        visibility: hidden;
+}
+
+.closebtn {
+    position: relative;
+    width: 5vh;
+    z-index: 9;
+    display: block;
+        margin-left: 129vh;
+        margin-right: auto;
+        margin-top: -93vh;
+        cursor: pointer;
+            visibility: hidden;
+}
+
+.overlay {
+    height: 100vh;
+    width: 210vh;
+    position: absolute;
+    background-color: black;
+    background-size: cover;
+    z-index: 7;
+    margin-left: -10;
+    margin-top: -70px;
+    opacity: 80%;
+    visibility: hidden;
+}
+
+.helpbtn {
+    position: fixed;
+    width: 10vh;
+    padding: 1%;
+    cursor: pointer;
 }
