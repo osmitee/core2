@@ -219,3 +219,31 @@ audio {
     padding: 1%;
     cursor: pointer;
 }
+
+.phone {
+    position: relative;
+    width: 222px;
+    color: #9b5661;
+    font-family: work sans;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30vh;
+        visibility: hidden;
+        background-color:#fadadf;
+        padding: 10%;
+        border-radius:100%;
+}
+
+@media only screen and (max-width: 600px) {
+    section {
+       visibility: hidden;
+    }
+
+    div {
+       visibility: hidden;
+        }
+        .phone {
+            visibility: visible;
+        }
+}
