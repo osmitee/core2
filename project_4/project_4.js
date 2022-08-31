@@ -56,6 +56,8 @@
 
 // canvas.addEventListener('mousemove', draw);
 
+console.log("hello fellow coder!!! if u have any questions shoot me a dm on instagram @osmitee i'd be happy to help :)")
+
 const canvas = document.querySelector("#draw");
 const ctx = canvas.getContext("2d");
 const stationery = document.getElementById('stationery');
@@ -114,10 +116,10 @@ window.addEventListener('keydown', function (e) {
     if (e.keyCode == 77) {
         if (isPlaying) {
             music.pause();
-            console.log('pause');
+            console.log("⏸️ howl's moving castle (music box version)");
         } else {
             music.play();
-            console.log('play');
+            console.log("▶️ howl's moving castle (music box version)");
         }
         isPlaying = !isPlaying; // if true equal false, if false equal true
         closed.style.opacity = "0";
@@ -137,8 +139,8 @@ function musicbox() {
     const sparkle = document.getElementById('sparkle');
     const closed = document.getElementById('closed');
     const open = document.getElementById('open');
-        sparkle.play();
-    console.log('play');
+    sparkle.play();
+    console.log('✧・ﾟ: *✧')
     closed.style.opacity = "0";
     open.style.opacity = "1";
 };
